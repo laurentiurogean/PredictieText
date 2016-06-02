@@ -1,0 +1,1590 @@
+# CARDIAC
+P: Bună ziua.
+M: Bună ziua. 
+M: Ce vă supără?
+P: Respir mai greu.
+M: Trageți aerul în piept mai greu sau îl dați afară mai greu?
+P: Trag aerul mai greu în piept.
+P: Dau aerul mai greu din piept. 
+P: Respir greu.
+P: Respir foarte greu.
+M: Când respirați mai greu?
+P: La început respiram mai greu când lucram mai mult, dar acum obosesc și respir greu la eforturi din ce în ce mai mici.
+P: Am început să respir mai greu și când nu fac efort.
+P: Ca să pot respira mai bine trebuie să mă așez cu corpul aplecat în față.
+P: La început oboseam când lucram mai mult. 
+P: Acum obosesc și respir greu la eforturi din ce în ce mai mici.
+P: Am început să respir mai greu și când nu fac efort.
+P: Ca să pot respira mai bine trebuie să mă așez cu corpul aplecat în față.
+P: Mă trezesc brusc din somn cu o senzație de sufocare.
+P: Mă trezesc brusc din somn cu o senzație de sete. 
+P: Trebuie să mă așez la marginea patului cu corpul aplecat în față.
+P: Trebuie să deschid geamul larg pentru a putea respira.
+P: Mă doare în piept, tușesc sec, transpir. 
+P: Am bătăi violente sau dureroase ale inimii.
+P: Respir foarte greu. 
+P: Respir șuierător atunci când trag aerul, dar și când îl dau afară.
+P: Tușesc sec.
+P: Am o tuse productivă cu eliminarea unei secreții.
+P: Am o tuse productivă cu eliminarea unei spute.
+M: Fumați?
+P: Nu mai fumez.
+P: Nu.
+P: Da.
+P: Uneori.
+P: Câteodată.
+P: Frecvent.
+P: Mai mult.
+P: Mai puțin.
+P: Foarte mult.
+P: Foarte puțin.
+P: Mai fumez câte o țigară.
+P: Am fumat mai mulți ani și acum nu mai fumez.
+M: Aveți pe cineva în familie cu probleme de sănătate?
+P: Da, mama.
+P: Da, tata.
+P: Da, sora.
+P: Da, fratele.
+P: Nu, nu are nimeni probleme de sănătate în familie.
+M: Alte tratamente luați?
+P: Da.
+P: Nu. 
+P: Am luat pastilele ce mi le-ați dat.
+P: Am luat medicamentele ce mi le-ați dat.
+P: Am făcut tratamentul care mi l-ați recomandat.
+P: Sunt mai bine după tratament.
+P: Nu sunt mai bine cu tratamentul pe care mi l-ați dat.
+P: Cum să iau pastilele?
+P: Cum să iau medicamentele?
+M: Trebuie să le luați de trei ori pe zi.
+P: Dați-mi alte pastile, cu acestea nu mă simt bine.
+P: Vă mulțumesc.
+P: Mă simt mai bine după ce am luat tratamentul pe care mi l-ați dat.
+P: Mă simt foarte bine după ce am luat tratamentul pe care mi l-ați dat.
+P: Cât timp trebuie să iau medicamentele?
+P: Mai trebuie să vin la control?
+P: Când trebuie să revin la control?
+M: Ce probleme aveți?
+P: Mă doare în piept.
+P: Mă strânge pieptul ca o gheară.
+P: Mă apasă în piept și durerea merge în umărul și mâna stângă până la nivelul degetelor.
+P: Mă apasă în piept și durerea merge în ambele mâini.
+P: Mă apasă în piept și durerea merge la nivelul gâtului.
+P: Mă apasă în piept și durerea merge în spate sau în abdomen.
+M: Când apare durerea?
+P: Durerea apare după ce urc două etaje.
+P: Durerea apare după ce urc treptele.
+P: Durerea apare după ce merg 50 de metri.
+P: Durerea apare când stau în frig.
+P: Durerea apare și când mă odihnesc și nu fac nimic. 
+P: Durerea apare destul de des.
+P: Durerea este puternică.
+P: Durerea este deosebit de mare.
+M: Cât timp durează durerea?
+P: Câteva minute și cedează dacă mă odihnesc.
+P: Durează peste 10 minute și ține până la jumătate de oră.
+P: Durează peste o oră. 
+M: Ce faceți ca să treacă durerea?
+P: Durerea cedează dacă mă odihnesc.
+P: Durerea nu cedează nici dacă mă odihnesc.
+P: Atunci când am durere respir mai greu.
+P: Atunci când am durere am greață, vărsături, transpir.
+M: Ce vă supară?
+P: Simt o pulsație puternică.
+P: Am o senzație de gol.
+P: Am o senzație de bătăi de aripă în piept.
+P: Respir neregulat și obosesc repede.
+P: Tușesc des.
+P: Nu am poftă de mâncare.
+P: Îmi este greață.
+P: Mă doare capul.
+P: Amețesc.
+P: Mi s-au umflat picioarele.
+M: Cât de des se întâmplă?
+P: Frecvent și persistă. 
+# VASCULAR - TROMBOFLEBITĂ 
+M: Bună ziua, ce vă supără?
+P: Mă doare la nivelul piciorului drept.
+P: Mă doare la nivelul piciorului stâng.
+P: Mă dor ambele picioare. 
+P: Mă doare gamba.
+P: Mă doare coapsa.
+P: Durerea durează puțin.
+P: Durerea apare din când în când.
+P: Durerea persistă, durează mult.
+P: Îmi amorțește piciorul.
+P: Am furnicături.
+P: Am amorțeală în picior.
+P: Durerea apare după ce fac un efort.
+P: Durerea apare atunci când merg.
+P: Durerea se accentuează la frig.
+P: Durerea se accentuează la efort sau când stau foarte mult în picioare.
+P: Durerea apare brusc, este foarte intensă și se tot accentuează încet, încet.
+P: Durerea este ca o crampă.
+P: Durerea este ca o senzație de greutate.
+P: Durerea mă strânge.
+P: Durerea dispare când mă opresc din mers și mă odihnesc.
+P: Durerea apare Când încep să merg.
+P: Durerea este continuă.
+P: Durerea este intermitentă.
+P: Mă dor mâinile și se înroșesc la căldură și cedează la rece.
+P: Mi-a apărut o leziune la nivelul piciorului.
+P: Mi-a apărut o leziune la nivelul degetelor de la picioare.
+P: Mi-a apărut o leziune la nivelul mâinii.
+P: Mi s-a umflat piciorul.
+P: Eu am pansat rana în fiecare zi și am pus pansament steril și uscat.
+P: Nu am știut la cine să mă adresez și am venit la dumneavoastră.
+M: Într-adevăr aveți o ulcerație la nivelul piciorului, va trebui să mergeți la un chirurg.
+P: Din ce cauză mi-a apărut asta?
+P: Ce trebuie să fac?
+P: Îmi dați un tratament?
+P: Mă va opera?
+P: Va trebui să mă pansez zilnic?
+# HTA/hTA
+M: Bună ziua, ce vă supără?
+P: Mă doare capul foarte tare în special dimineața. 
+P: Pulsează. 
+M: Unde este durerea?
+P: Mă doare capul la nivelul frunții până în spate.
+P: Mai am și amețeli, grețuri, vărsături.
+P: Văd mai rău și aud zgomote în urechi.
+P: Am somnolență.
+P: Durerile de cap s-au agravat, mă simt confuz.
+P: Am convulsii, sângerări nazale, oboseală, pulsează, amețesc.
+P: Văd puncte negre în fața ochilor.
+P: Aud zgomote în urechi, ca o vâjâitură.
+M: Cum descrieți amețeala?
+P: Ca o senzație de beție.
+P: Ca o senzație de plutire.
+M: Se învârt obiectele în jurul dumneavoastră sau dumneavoastră în jurul obiectelor?
+P: Nu mă învârt în jurul obiectelor.
+P: Nu se învârt în jurul meu.
+M: Vă măsurați tensiunea în mod regulat?
+P: Da îmi măsor tensiunea de câteva ori pe zi.
+P: Tensiunea este mare, alteori nu.
+P: Nu mă știu cu probleme de tensiune. 
+P: Nu mă știu cu tensiune mare.
+P: Am de mai multă vreme probleme cu tensiunea.
+P: Am de mai multă vreme valori mari ale tensiunii.
+P: Mama a fost cu tensiune mare.
+P: Tata a fost cu tensiune mare.
+P: Până acum nu am avut probleme cu tensiunea.
+P: De obicei tensiunea este mică.
+P: Am primit un tratament și mă simt mai bine.
+P: Fac un tratament și mă simt mai bine.
+P: Am primit un tratament și nu mai am probleme.
+P: Am primit un tratament și nu mă simt mai bine.
+P: Fac un tratament și nu mă simt mai bine.
+M: Consumați cafea? Dacă da, cât? Fumați?
+P: Nu beau cafea.
+P: Beau o cafea pe zi.
+P: Beau două cafele pe zi.
+P: După ce îmi beau cafeaua mă doare capul. 
+P: Fumez.
+P: Nu fumez.
+P: Nu am fumat niciodată.
+P: Nu mai iau pastilele pentru tensiune, deoarece amețesc după ce le iau.
+P: Când mi se face rău, atunci iau o pastilă.
+M: Dumneavoastră ați mai făcut investigații sau teste?
+P: Nu am mai făcut nici un test.
+P: Nu am mai făcut nici o investigație
+P: Da, am mai făcut ceva teste.
+P: Am rezultatele aici.
+P: Am făcut analize de sânge.
+P: Am făcut o electrocardiogramă.
+P: Am făcut un ecocord.
+# REUMATISM ARTICULAR ACUT 
+M: Bună ziua, pentru ce ați venit?
+P: Mă dor articulațiile de la mână.
+P: Mă dor articulațiile de la picior.
+P: S-au umflat articulațiile de la mână și nu pot mișca mâna.
+P: S-au umflat articulațiile de la picior și nu pot merge.
+P: Inițial mă doare o articulație, apoi îmi trece și mă doare altă articulație.
+P: Mi-au apărut bubițe.
+P: Mi-a apărut o erupție la nivelul palmelor.
+P: Mi-au apărut bubițe mici și de culoare roz.
+P: Mi-a apărut o erupție de culoare roșie pe tot corpul.
+# POLIARTRITA REUMATOIDA
+P: Mă dor articulațiile și sunt rigide dimineața când mă trezesc.
+P: Mă dor articulațiile după ce lucrez un pic mai mult.
+P: Întâi mi s-au umflat articulațiile și au început să mă doară de la nivelul degetelor ambelor mâini și picioare.
+P: Mă dor articulațiile de la gleznă.
+P: Mă dor încheieturile mâinii.
+P: La început mă dureau doar un pic, dar mă dor din ce în ce mai tare și se umflă.
+P: Acum mă dor toate articulațiile.
+P: Dacă mă odihnesc și nu mai fac nimic, se mai liniștește durerea.
+P: Am luat o pastilă de durere.
+P: Am luat un antiinflamator și a fost un pic mai bine.
+# RESPIRATOR 
+M: Bună ziua, ce vă supără?
+P: Mă doare de câteva zile în piept.
+P: Tușesc și durerea se accentuează la tuse.
+M: Cum este tusea, seacă sau productivă?
+P: Tusea este seacă.
+P: Tusea este uscată.
+P: Inițial m-a durut gâtul, apoi am început să tușesc.
+P: Tusea a început să fie productivă. 
+P: Elimin o secreție gălbuie și cu firicele de sânge.
+P: Nu am avut temperatură. 
+P: Nu am avut febră.
+P: Am avut temperatură. 
+P: Am avut febră.
+P: Am luat calmante.
+P: Am luat mai multe calmante.
+P: Nu am luat nimic.
+P: Am băut doar ceaiuri.
+P: Vă rog să îmi dați un tratament.
+P: Vă rog să îmi dați o rețetă.
+P: Vă rog să îmi dați o trimitere.
+P: Nu am știut ce să iau.
+M: Aveți o traheită și o să vă scriu o rețetă.
+P: Cum fac aerosolii? 
+P: De câte ori pe zi trebuie să fac aerosolii?
+P: Trebuie să iau și un antibiotic?
+P: Trebuie să mai vin la control?
+P: Peste cât timp trebuie să mai vin la control? 
+P: Cât timp trebuie să fac tratamentul? 
+P: Îmi puteți face o programare?
+P: Voi urma tratamentul așa cum mi-ați recomandat.
+P: Vă mulțumesc.
+P: La revedere.
+P: Atunci o să vin la control.
+P: Ne vedem peste o săptămână.
+#BRONSITA ACUTA
+P: De câteva zile am o ușoară febră.
+P: De o săptămână am o ușoară febră.
+P: De câteva zile respir mai greu.
+P: De o săptămână respir mai greu.
+P: Am o durere în plămâni și o respirație șuierătoare.
+P: Am o durere în plămâni și o respirație zgomotoasă.
+P: Am o durere în plămâni și o stare de oboseală.
+P: Inițial am simțit ca o strângere în zona pieptului, apoi am început să tușesc.
+P: Tusea a fost inițial seacă și dureroasă apoi a devenit productivă.
+P: Expectorez o flegmă albicioasă, gălbuie.
+P: Am mai avut și dureri de cap.
+P: Durerea o simt la baza pieptului de o parte și de alta și este accentuată de tuse.
+P: Durerea o simt la baza toracelui și este accentuată de tuse.
+P: Ce înseamnă aceasta? 
+P: Este grav? 
+P: Se poate trata?
+M: Pentru a vă face bine, vă recomand cât mai mult repaus la pat, consumul de cât mai multe lichide și folosirea unui sirop de tuse.
+M: Dacă tusea este seaca vă recomand un antitusiv, iar dacă e productivă, un expectorant.
+P: Voi urma indicațiile dumneavoastră. 
+P: Dacă nu mă simt mai bine, ce fac?
+M: Reveniți la un control.
+M: Tusea poate persista mai multe săptămâni.
+# BRONSITA CRONICA 
+P: Tușesc productiv și expectorez o flegmă gălbuie deja de o lună.
+P: Tușesc productiv și expectorez o flegmă gălbuie deja de două luni.
+M: Fumați?
+P: Da, fumez de 30 de ani, câte un pachet pe zi.
+P: Tușesc productiv și expectorez o flegmă gălbuie deja de o lună. 
+P: Nu fumez.
+P: Am fumat, dar nu mai fumez.
+P: Nu am fumat niciodată.
+M: Ar trebui în primul rând să renunțați la fumat. 
+M: Fumatul sau expunerea la fumul de țigară timp îndelungat irită tuburile bronșice și afectează plămânii.
+M: Trebuie să facem câteva teste. 
+M: Spirometrie, radiografie toracică.
+P: Am făcut recent o radiografie toracică.
+P: Nu am făcut în ultimele 6 luni o radiografie toracică.
+M: Unde lucrați? 
+M: Sunteți expus la praf sau alte tipuri de substanțe iritante?
+P: Nu lucrez.
+P: Sunt pensionar.
+P: Lucrez, dar nu sunt expus la praf sau alte substanțe iritante.
+P: Lucrez și sunt expus la praf sau alte tipuri de substanțe iritante.
+M: Va trebui să luați un sirop de tuse, să consumați multe lichide, să luați un antibiotic și un bronhodilatator.
+P: Ce este un bronhodilatator? 
+M: Acesta este un medicament pentru inhalare care va reduce inflamația și vă va ajuta să respirați mai ușor.
+# TRAHEITA 
+P: Mă doare la nivelul pieptului.
+P: Este o senzație de arsură.
+P: Durerea era accentuată de tuse.
+P: Tusea a fost seacă în primele zile, apoi a devenit productivă și a cedat și durerea.
+P: Durerea era intensă. 
+P: Durerea era de intensitate redusă.
+P: Durerea se extinde la nivelul mâinilor și la nivelul gâtului.
+P: Simt ca o presiune toracică după ce tușesc mai mult.
+P: Am o durere la nivelul pieptului foarte puternică.
+P: Durerea apare brusc ca o lovitură de cuțit.
+P: Durerea se accentuează chiar și când respir, când tușesc, strănut, râd.
+P: Am o durere foarte puternică în spate.
+P: Durerea se accentuează atunci când respir și din această cauză nu pot respira.
+M: Efortul fizic accentuează durerea sau nu?
+P: Nu, durerea nu este agravată de efortul fizic.
+P: Durerea apare brusc.
+P: Nu respir cum trebuie, am o sete de aer continuă.
+P: Durerea nu este foarte intensă.
+P: Durerea este moderată.
+P: Durerea apare după ce fac efort. 
+P: Respir mai repede și superficial.
+P: Trag mai greu aerul în piept și îl dau afară  ușor.
+P: Am o respirație zgomotoasă și tuse uscată.
+P: Am o respirație zgomotoasă și tuse umedă.
+P: Tusea apare noaptea sau dimineața.
+P: Tusea nu mă lasă să respir.
+P: Tusea este repetată.
+P: Tusea este de nestăpânit.
+P: Tusea apare ocazional.
+P: Tusea apare la aerul rece.
+P: Tusea apare dimineața la ridicarea din pat și durează câteva minute.
+P: Tusea apare noaptea când mă întorc în pat.
+P: Tusea apare seara la culcare.
+P: Dau aerul afară mai greu, zgomotos, șuierător.
+P: Tusea este aspră.
+P: Tusea apare în accese repetate și prelungite.
+P: Tusea îmi provoacă durere în piept.
+P: Tusea este de scurtă durată.
+P: Tusea este persistentă.
+P: Tusea este sufocantă.
+P: Am o tuse umedă și expectorez o secreție mucoasă.
+P: Am o tuse umedă și expectorez o secreție clară.
+P: Am o tuse umedă și expectorez o secreție de culoare roz.
+P: Am o tuse umedă și expectorez o secreție de culoare albă.
+P: Am o tuse umedă și expectorez o secreție de culoare gri.
+P: Elimin puroi.
+P: Elimin puroi de culoare gălbuie.
+P: Elimin puroi de culoare gălbuie-verzuie.
+P: Elimin puroi de culoare cenușie.
+P: Secrețiile pe care le elimin conțin și mucus și puroi.
+P: Secreția eliminată este spumoasă.
+P: Sputa este pătată.
+P: Sputa este cu firicele de sânge.
+P: Sputa este de culoarea ruginii.
+P: Sputa este vâscoasă.
+P: Sputa este de culoare roșu-închisă.
+P: Sputa este galben-aurie.
+P: Secreția pe care o elimin nu are nici un miros.
+P: Secreția pe care o elimin are miros de ouă clocite.
+P: Secreția pe care o elimin are miros neplăcut.
+# ASTM BRONSIC 
+P: M-am trezit noaptea trecută brusc, cu o senzație de sufocare.
+P: Nu puteam da afară aerul din plămâni.
+P: Foarte greu reușeam să dau aerul afară.
+P: Respiram zgomotos și se auzea un șuierat.
+P: Ca să pot respira mai bine m-am așezat pe scaun cu brațele sprijinite de speteaza acestuia.
+P: Criza a cedat după câteva ore.
+P: Criza a cedat după ce am luat medicamentele.
+P: Criza a cedat destul de greu. 
+P: Crizele apar mai frecvent când fac curat sau șterg praful.
+P: Crizele apar mai frecvent când fac curat sau scutur covoarele.
+P: Crizele apar mai frecvent când merg în câmp. 
+P: M-am trezit și m-am așezat la marginea patului și m-am sprijinit cu mâinile.
+P: Ce trebuie să fac ca să nu se mai întâmple?
+M: În ce condiții locuiți?
+P: Am o locuință adecvată.
+P: Am o locuință rece.
+P: Am o locuință umedă și stăm foarte mulți împreună.
+P: Eu nu fumez, dar fiul meu care locuiește cu mine fumează.
+P: Și mama a avut probleme cu respirația.
+P: Și tata a avut probleme cu respirația.
+P: Eu am fost diagnosticat cu probleme la plămâni.
+P: Ce trebuie să facă ceilalți din familie care locuiesc cu mine?
+# TBC
+P: Am o tuse însoțită de mucus gros, câteodată e cu sânge.
+P: Am o tuse care persistă de aproximativ două săptămâni.
+P: Inima îmi bate mai repede.
+P: De câteva săptămâni mi s-a mărit gâtul în volum.
+P: Am avut febră, frisoane și transpiram în timpul somnului.
+P: Mă simt obosit și slăbit.
+P: Nu mai am poftă de mâncare și am scăzut în greutate. 
+P: Mi se pare că nu pot să respir profund și am și dureri în piept.
+P: Am pe cineva în familie care are tuberculoză activă.
+P: Am pe cineva în familie care este bănuit că ar avea tuberculoză.
+P: Eu ce ar trebui să fac?
+P: Este posibil ca și eu să am boala?
+P: Trebuie să fac ceva teste? 
+P: De câte ori trebuie să scuip în aceste borcănașe?
+P: Când trebuie să le aduc?
+# CANCER BRONHOPULMONAR 
+P: Nu am poftă de mâncare și am slăbit mult în ultima vreme.
+P: Respir mai greu și am senzația că rămân fără aer. 
+P: Simt o presiune în piept și obosesc foarte repede.
+P: Am o tuse care persistă de vreo trei săptămâni și am și dureri în piept.
+P: Expectorez o spută cu sânge și nu respir foarte bine.
+P: Fac repetate infecții la plămâni.
+#NEURO 
+P: Mă doare capul foarte tare.
+P: Durerea persistă de la câteva ore și ține câteva zile.
+P: Am luat medicamente de durere și nu a trecut.
+P: Durerile trec când iau medicamente de durere și dacă mă odihnesc.
+P: Am o durere intensă localizată la jumătate din cap.
+P: Am o durere pulsatilă localizată la jumătate din cap.
+P: Am senzație de greață și vomă.
+P: Senzația de greață se accentuează la lumină sau zgomot sau atunci când lucrez. 
+P: Durerile apar în crize de la una pe an la câteva pe lună.
+P: Durerile durează între două ore și câteva zile. 
+P: Când apar durerile mai simt ace, înțepături, amorțeli care apar prima dată la degete și apoi se întind la tot brațul și la față.
+# AVC
+P: Dintr-o dată am simțit că mi-a amorțit brațul.
+P: Dintr-o dată am avut o senzație de slăbiciune la nivelul feței. 
+P: Dintr-o dată am avut o senzație de slăbiciune la nivelul piciorului. 
+P: Am simțit amorțeli și slăbiciune. 
+P: Nu puteam mișca fața, brațul sau piciorul. 
+P: Am avut vedere neclară, încețoșată, cu pete. 
+P: Am avut vedere dublă.
+P: Mi-am pierdut temporar vederea.
+P: Mi s-a strâmbat fața. 
+P: Am avut tulburări de vorbire.
+P: Am avut tulburări de înțelegere a cuvintelor celorlalți.
+P: Nu am mai putut merge și amețeam.
+P: În acest timp mă durea capul foarte tare. 
+P: Am probleme cu tensiunea și nu prea iau tratamentul tot timpul.
+P: Am probleme cu tensiunea și nu prea iau tratamentul așa cum mi-a recomandat medicul.
+P: Mă știu cu tensiune mare și iau tratamentul, dar în această zi nu știu ce s-a întâmplat. 
+P: Cu toate că mi-am luat tratamentul, am avut dureri de cap severe, grețuri și vărsături.
+P: Mi s-a înțepenit gâtul.
+P: Am avut amețeli și convulsii.
+P: Am început să mă simt confuz.
+P: Toate simptomele au apărut treptat și s-au agravat în câteva ore.
+P: Mă simțeam tot mai rău și am chemat salvarea.
+P: Mă știu și cu alte problem de sănătate.
+P: Ateroscleroză, hipercolesterolemie, fibrilație atrială, diabet zaharat.
+P: Ce șanse am să mă fac bine?
+P: Cât va dura tratamentul?
+P: Voi face doar tratament cu medicamente?
+P: Va trebui să fac și gimnastică medicală sau fizioterapie?
+P: Se poate agrava starea mea?
+M: Vom efectua un examen CT sau RMN, ecografie Doppler și o să vă putem da mai multe detalii. 
+#TUMORI CEREBRALE
+P: Am dureri de cap care apar tot mai frecvent și sunt din ce în ce mai severe.
+P: Am senzație de greață și vărsături.
+P: Văd în ceață.
+P: Văd dublu.
+P: Nu văd pe lateral.
+P: Nu mai văd deloc.
+P: Nu pot să mișc un braț.
+P: Nu pot să mișc un picior.
+P: Nu mă pot ține bine pe picioare.
+P: Vorbesc mai greu.
+P: Nu mă pot exprima.
+P: Mă exprim cu dificultate.
+P: Am avut și convulsii.
+P: Am și probleme de auz și obosesc.
+P: Am o senzație de slăbiciune în tot corpul.
+M: Trebuie să facem o serie de investigații – un examen RMN, o biopsie tumorală. Tratamentul depinde de tipul, dimensiunea și poziția tumorii. Opțiuni terapeutice sunt: intervenția chirurgicală (operația), chimioterapia, terapia cu medicamente biologice, radiochirurgia și radioterapia.
+P: Pot rămâne cu sechele după tratament?
+M: Reabilitarea după tratament poate fi o parte necesară recuperării.
+#SCLEROZA MULTIPLA
+P: Mă simt slăbit și am probleme cu mersul.
+P: Scap lucrurile din mână, ca și cum aș fi stângaci.
+P: Nu-mi pot coordona foarte bine mișcările.
+P: Văd încețoșat și întunecat.
+P: Văd cu pete și neclar.
+P: Am o durere la nivelul ochilor, mai ales atunci când îi mișc. 
+P: Simt furnicături.
+P: Am senzația de înțepături de ac.
+P: Am amorțeli.
+P: Am senzații electrice care se deplasează de-a lungul spatelui și în jos, în picioare. 
+P: Am senzația de cap ușor sau amețeală și senzația că totul se învârte în jur.
+P: Am probleme de echilibru.
+P: Nu pot sta în picioare.
+P: Nu pot urina și dintr-o dată simt nevoia bruscă de a urina și nu pot ține urina. 
+P: Simt că mișcările mele sunt rigide.
+P: Am un tremor pe care nu-l pot controla și din această cauză merg destul de greu.
+P: Am început să am și dureri. 
+P: Nu pot merge afară.
+P: Sunt constipat.
+P: Nu mai țin minte, uit.
+P: Am pierderi de memorie. 
+P: Nu mă pot concentra, nu sunt foarte atent. 
+P: Mă simt foarte trist.
+P: Din cauză că nu mă pot deplasa foarte bine, voi ajunge să folosesc scaunul cu rotile?
+P: Care este evoluția acestei boli?
+P: Există tratament pentru această boală?
+P: Ce tratament ar trebui să urmez?
+M: Deși cu tratamentul actual, scleroza multiplă nu se poate vindeca, totuși medicamentele pot reduce numărul, frecvența și severitatea recăderilor și pot încetini progresia bolii.
+P: Tratamentul pe care trebuie să-l fac are efecte secundare?
+M: Au mai existat cazuri de scleroză multiplă în familie?
+P: Nu.
+P: Da.
+M: O să ne vedem periodic pentru a putea monitoriza progresia bolii.
+P: Pot face exerciții singur sau am nevoie de un fizioterapeut?
+M: Puteți să le faceți singur, dar la început va trebui să faceți împreună cu un fiziokinetoterapeut pentru a învăța cât mai corect.
+#PARKINSON
+P: Îmi tremură mâinile, brațele, picioarele și bărbia. 
+P: Am observat că tremorul se diminuează atunci când lucrez ceva. 
+P: Merg un pic mai greu și mă și blochez și nu pot face nici o mișcare.
+P: Îmi este greu să mă coordonez și să-mi mențin echilibrul.
+P: Obosesc, am dureri, comunic mai greu.
+P: Sunt constipat.
+P: Nu pot dormi.
+P: Îmi pierd memoria.
+P: Nu pot să fiu atent și nu mă pot concentra.
+# SCLEROZA LATERALA
+P: Îmi pierd forța musculară.
+P: Nu am nici o putere.
+P: Nu pot urca treptele și respir mai greu. 
+P: Nu pot înghiți.
+P: Am crampe musculare.
+P: Nu reușesc să vorbesc.
+P: Am slăbit.
+P: Am scăzut în greutate.
+# OFTALMOLOGIE                           
+P: Mi-a căzut pleoapa la ochiul drept.
+P: Mi-a căzut pleoapa la ochiul stâng.
+P: Mi-a căzut pleoapa la ambii ochi.
+P: Am o senzație de iritare la nivelul ochiului drept.
+P: Am o senzație de iritare la nivelul ochiului stâng.
+P: Nu pot să clipesc din ochi. 
+P: Ochii încep să proemine și am palpitații.
+P: Îmi tremură mâinile.
+P: Am insomnie.
+P: Nu pot dormi noaptea.
+P: Nu suport căldura.
+P: Deși mi-a crescut pofta de mâncare, tot slăbesc.
+P: Mi-e sete întruna.
+P: Ochiul drept începe să proiemine.
+P: Ochiul stâng începe să proiemine.
+P: Se întorc pleoapele pe dos.
+P: Mi-a apărut o proeminență de culoare gălbuie la nivelul pleoapei superioare, nu mă doare.
+P: Am văzut că am o pată de culoare albă la nivelul ochiului. 
+P: Am văzut că am o pată de culoare galbenă la nivelul ochiului. 
+P: Am văzut că am o pată de culoare roșie la nivelul ochiului.  
+P: Mi s-au făcut ochii galbeni. 
+P: Ochiul a început să lăcrimeze. 
+P: Văd în ceață.
+P: Văd neclar.
+P: Nu suport lumina, fie cea naturală sau artificială.
+P: Văd dublu.
+P: Văd obiecte mici care plutesc.
+P: Nu văd în lateral.
+P: De câteva zile am senzație de corp străin la nivelul ochilor.
+P: Am o senzație de arsură la nivelul ochiului.
+P: Am o senzație de mâncărime la nivelul ochiului.
+P: Am o senzație de nisip în ochi.
+P: Lăcrimez.
+P: Ochii sunt roșii și am și o secreție alb-gălbuie care îmi lipește pleoapele.
+P: Mi-a scăzut vederea brusc.
+P: Văd mai slab.
+P: Văd în ceață și am dureri.
+# GUȘĂ
+P: Bună ziua.
+M: Bună ziua, spuneți vă rog frumos ce vă supară?
+P: Mi-a crescut ceva la nivelul gâtului.
+P: Gâtul meu este mai gros.
+M: De cât timp ați observat ca v-ați umflat la nivelul gâtului?
+P: Cam de două luni.
+P: Cam de trei săptămâni.
+M: Altceva vă mai supără?
+P: Nu, altceva nu mă mai supără.
+M: Înghițiți bine, respirați bine?
+P: Da. 
+P: Nu.
+M: Ați scăzut sau crescut în greutate în ultima vreme?
+M: Nu ați simțit ca sunteți mai obosit sau mai agitat în ultima perioadă?
+M: Sunteți fumător? Dacă da, de cât timp și câte țigări fumați pe zi?
+P: Nu sunt fumător.
+P: Am fumat de mulți ani. 
+P: Fumam cam două țigări pe zi.
+P: Acum nu mai fumez de doi ani de când am fost operat.
+M: Cafea consumați?
+M: Câte cafele pe zi?
+P: Nu beau cafea.
+P: Beau o cafea pe zi.
+P: Beau două cafele pe zi.
+M: Alcool consumați?
+P: Nu beau alcool.
+P: Beau puțin alcool.
+P: Beau destul de mult alcool.
+P: Beau foarte mult alcool.
+M: Ce boli sau operații ați mai avut?
+P: Am fost operat pentru cancer de laringe. 
+P: Nu mai am laringe.
+P: Laringele a fost scos de câteva luni.
+P: Laringele a fost scos de câțiva ani.
+M: Tratament oncologic ați făcut?
+P: Nu am făcut.
+P: Am făcut chimioterapie înainte de operație. 
+P: Am făcut chimioterapie înainte de operație și radioterapie după operație.
+P: Am făcut chimioterapie și radioterapie înainte de operație.
+M: Câte ședințe de chimioterapie ați făcut?
+P: Am făcut câteva ședințe de chimioterapie.
+P: Am făcut mai multe ședințe de chimioterapie.
+M: Câte ședințe de radioterapie ați făcut?
+P: Am făcut câteva ședințe de radioterapie.
+P: Am făcut mai multe ședințe de radioterapie.
+M: Alte boli mai aveți?
+M: Ce medicamente luați?
+M: Familia dumneavoastră cu ce boli se știe?
+P: Toată lumea e sănătoasă.
+P: Mama a murit de accident vascular.
+P: Mama a murit de infarct miocardic.
+P: Mama a murit de cancer.
+P: Sora are hipertensiune arterială.
+M: Vom face câteva analize de sânge ca să vedem dacă tiroida dumneavoastră funcționează normal.
+M: Vom mai face o ecografie tiroidiană ca să vedem dacă sunt noduli sau chisturi la nivelul glandei tiroide.
+M: Dacă este cazul vom face și alte teste cum ar fi o scintigrafie.
+P: Bine, doamna doctor. 
+P: Bine, domnule doctor. 
+P: Ce boală am?
+P: Este gravă?
+M: Aveți gușă eutiroidiană, adică tiroida dumneavoastră este mărită dar funcționează normal.
+P: Trebuie să iau ceva tratament?
+P: Cum se ia tratamentul?
+M: Da, va trebui să luați un tratament.
+M: Tratamentul se ia zilnic și după o lună reveniți la un control.
+M: Tiroida dumneavoastră este mare și din cauza ei nu puteți să înghițiți prea bine și trebuie făcută operație. 
+M: Vă recomand să scoatem tiroida.
+P: Este grea operația aceasta?
+P: În ce constă această operație?
+P: Cât trebuie să stau internat?
+P: Ce fel de anestezie se va face?
+M: Operația se va face în anestezie generală.
+M: Se face o tăietură la baza gâtului, iar după operație o să stați în spital  câteva zile.  
+M: După operație o să aveți două tuburi de dren, care le vom scoate cam după două zile.
+P: Ce riscuri are operația?
+P: După operație mai trebuie să iau ceva tratament?
+M: După operație va trebui să luați zilnic hormoni tiroidieni pentru tot restul vieții. 
+M: Periodic va trebui să veniți la control ca să vedem dacă dozele de medicament sunt bune sau mai trebuie modificate.
+P: Trebuie să mă operez repede sau mai pot să aștept câteva luni?
+M: Nu este grabă.
+P: O să mă operați dumneavoastră?
+M: O să vă trimit la un chirurg bun cu care colaborez ca să vă opereze.
+P: Mulțumesc mult.
+P: La revedere!
+M: La revedere!
+#HIPERTIROIDISM 
+P: Bună ziua!
+M: Bună ziua! 
+M: Ce vă supără?
+P: Mi-a apărut o formațiune la nivelul gâtului. 
+P: Simt că îmi bate inima foarte tare și repede.
+P: Simt că pielea mea este umedă și caldă.
+P: Îmi tremură mâinile, sunt nervos și agitat.
+P: Îmi tremură mâinile, sunt nervoasă și agitată.
+P: Sunt obosit, nu pot să dorm noaptea.
+P: Sunt obosită, nu pot să dorm noaptea.
+P: Am poftă de mâncare, dar am slăbit.
+P: Mă dor ochii, îmi lăcrimează, îi simt iritați.
+P: Mă deranjează lumina, văd dublu și parcă am ochii bulbucați.
+M: De cât timp ați observat toate acestea?
+P: De câteva săptămâni. 
+P: De câteva luni.  
+M: Sunteți fumător? 
+M: De cât timp și câte țigări fumați pe zi?
+P: Nu sunt fumător.
+P: Nu sunt fumătoare.
+P: Am fumat mai multi ani, câteva țigări pe zi.
+P: Nu mai fumez de câțiva ani de când am fost operat.
+P: Nu mai fumez de câțiva ani de când am fost operată.
+M: Cafea consumați, câte pe zi?
+P: Nu beau cafea.
+P: Beau câteva cafele pe zi.
+M: Alcool consumați?
+P: Nu beau alcool.
+P: Beau puțin alcool.
+P: Beau destul de mult alcool.
+P: Beau foarte mult alcool.
+M: Ce boli sau operații ați mai avut?
+P: Am fost operat pentru cancer de laringe. 
+P: Laringele a fost scos de câteva luni.
+P: Laringele a fost scos de câțiva ani.
+M: Am văzut analizele dumneavoastră și aveți hipertiroidism.
+M: O să vă recomand pentru început un tratament medicamentos, care se ia zilnic.
+M: O să veniți periodic la control ca să vedem cum vă simțiți și vom repeta și analizele de sânge. 
+M: În funcție de rezultatele analizelor vom modifica sau nu tratamentul.
+M: Dacă cu tratament nu reușim să facem să vă simțiți bine, va trebui să scoatem tiroida.
+P: Este grea această operație?
+P: În ce constă această operație?
+P: Cât trebuie să stau internat?
+P: Cât trebuie să stau internată?
+P: Ce fel de anestezie se va face?
+M: Operația se va face în anestezie generală.
+M: Se face o tăietură la baza gâtului, iar după operație o să stați în spital câteva zile.  
+M: După operație o să aveți două tuburi de dren, care le vom scoate cam după 2 zile.
+P: Ce riscuri are operația?
+P: După operație mai trebuie să iau ceva tratament?
+M: După operație va trebui să luați zilnic hormoni tiroidieni pentru tot restul vieții. 
+M: Periodic va trebui să veniți la control ca să vedem dacă dozele de medicament sunt bune sau mai trebuie modificate.
+P: Sper să mă simt bine cu medicamentele și să nu fie nevoie de operație. 
+P: Mulțumesc mult! 
+P: Vă doresc o zi bună!
+P: La revedere!
+#HIPOTIROIDISM
+M: Bună ziua! 
+M: De ce ați venit?
+M: Ce vă supără?
+P: În ultima vreme mă simt foarte obosit.
+P: M-am îngrășat.
+P: Pielea mea este foarte aspră și uscată.
+P: Îmi cade părul.
+P: Mă simt deprimat.
+P: Sunt constipat.
+P: Simt furnicături și parcă îmi amorțesc mâinile și picioarele.
+M: De cât timp ați observat toate acestea?
+P: De câteva săptămâni.
+P: De câteva luni.
+P: De câțiva ani.
+M: Ce boli sau operații ați mai avut?
+P: Am fost operat pentru cancer de laringe. 
+P: Nu mai am laringele.  
+M: Am văzut analize dumneavoastră și aveți hipotiroidism.
+M: O să vă recomand un tratament medicamentos.
+M: Tratamentul se ia zilnic dimineața cu câteva minute înainte de mâncare.
+P: Cât timp trebuie să iau acest medicament?
+M: Acest medicament va trebui să îl luați toată viața.
+P: Tiroida dumneavoastră nu mai funcționează bine și nu mai produce hormoni. 
+P: Acest medicament este de fapt hormonul pe care corpul nu îl mai produce.
+P: Bine doamna doctor.
+P: Bine domnule doctor.
+M: O să veniți periodic la control ca să vedem cum vă simțiți și vom repeta și analizele de sânge. 
+M: În funcție de rezultatele analizelor vom modifica sau nu tratamentul.
+P: Medicamentul se compensează?
+M: Medicamentul se compensează.
+M: Medicamentul nu se compensează.
+P: Eu trebuie să vin în fiecare lună la dumneavoastră ca să îmi scrieți rețetă compensată?
+M: Eu vă scriu prima rețetă compensată.
+M: Vă scriu pe scrisoarea medicală ce tratament și în ce doză trebuie să îl luați.
+M: Medicul de familie vă va scrie mai departe lunar rețeta compensată.
+#DIABET ZAHARAT  
+M: Bună ziua! 
+M: De ce ați venit?
+M: Spuneți ce vă supără?
+P: Beau foarte multă apă și parcă îmi e sete tot timpul.
+P: Merg foarte des la baie.
+P: Am slăbit.
+P: Parcă văd în ceață.
+P: Parcă tot timpul sunt obosit.
+P: Mă simt foarte obosit.
+M: De cât timp ați observat toate acestea?
+P: De câteva săptămâni.
+P: De câteva luni.
+M: Ce boli sau operații ați mai avut?
+P: Am fost operat pentru cancer de laringe. 
+P: Nu mai am laringele.
+M: Va trebui să facem analize de sânge ca să vedem cum stați cu zahărul din sânge. 
+M: O să mai facem un test de toleranță la glucoză.
+P: Acestea sunt analizele pe care le-am făcut. 
+P: Sunt bune analizele?
+M: Se pare că aveți diabet zaharat.
+P: Se poate trata?
+P: Se va vindeca?
+M: Diabetul zaharat nu se vindecă.
+M: Va trebui să țineți regim alimentar și să faceți puțină mișcare.
+M: Pentru început am să vă dau medicamente care trebuie luate zilnic. 
+M: O să veniți periodic la control ca să vedem cum vă simțiți și vom repeta și analizele de sânge. 
+M: În funcție de rezultatele analizelor vom modifica sau nu tratamentul. 
+M: Dacă nu reușiți cu regim, exerciții fizice și medicamente să reglăm glicemia, va fi nevoie să luați insulină.
+P: E neapărată nevoie să iau insulină?
+M: Dacă urmați sfaturile pe care vi le-am dat e posibil să nu fie nevoie să luați insulină.
+M: Dacă glicemia va fi tot mare, va trebui să începeți să luați insulină. 
+M: Glicemia mare pentru o perioadă mai lungă de timp duce la complicații vasculare, renale, oculare, iar dacă crește foarte mult puteți să faceți comă diabetică.
+P: Am să iau medicamentele și voi ține regim așa cum spuneți dumneavoastră.
+M: Aici aveți scrisoarea medicală și prima rețetă compensată pentru medicamente. 
+M: De luna viitoare o să vă scrie medicul de familie rețeta. 
+M: O zi bună, la revedere și ne vedem la control.
+P: La revedere!
+P: O zi buna!
+#REFLUX GASTRO-ESOFAGIAN
+P: Am senzația de arsură în piept și uneori simt că îmi vine gust acru în gură.
+M: De cât timp aveți aceste simptome?
+P: De câteva săptămâni.
+P: De câteva luni.
+M: Altceva vă mai supără?
+P: Nu.
+M: Ce boli sau operații ați mai avut?
+P: Am fost operat pentru cancer de laringe. 
+M: Va trebui să facem câteva investigații. 
+P: Ce boală am?
+M: Aveți esofagită de reflux.
+P: Ce înseamnă aceasta? 
+P: Este gravă boala? 
+P: Se poate trata boala?
+M: Această boală înseamnă că acidul din stomac merge în sus și poate ajunge până în gură.
+M: Boala se poate trata.
+M: Boala nu este gravă, dar trebuie să o tratăm. 
+M: Boala netratată poate să dea complicații.
+P: Ce medicamente trebuie să iau?
+M: Trebuie să luați aceste medicamente.
+M: Mai trebuie să ridicați capul patului cu câțiva centimetri. 
+M: Trebuie să evitați cafeaua, alcoolul, băuturile carbogazoase și fumatul. 
+M: Ar fi bine să nu mai mâncați seara târziu și să evitați să purtați cureaua foarte strânsă la pantaloni.
+P: Cât timp trebuie să fac acest tratament?
+M: Tratamentul trebuie făcut câteva săptămâni.
+M: Apoi ar fi bine să veniți la un control.
+P: Când vin la control mai am nevoie de bilet de trimitere de la medicul de familie?
+M: Da.
+#GASTRITA ACUTA
+P: Am arsuri pe piept.
+P: Am grețuri și vărsături.
+P: Mă doare stomacul.
+P: Orice mâncare îmi pică greu.
+P: Nu mai am poftă de mâncare și am slăbit în greutate.
+P: Mă simt balonat.
+P: Mă simt balonată.
+M: De cât timp simțiți toate acestea?
+P: De câteva zile.
+M: Ați vărsat sânge?
+P: Da.
+P: Nu.
+M: Scaunul s-a întâmplat să îl aveți foarte negru?
+P: Da.
+P: Nu.
+M: Luați medicamente antiinflamatoare?
+M: Probleme la ficat, la rinichi sau la plămâni știți să aveți?
+M: Ați fost operat de curând? Ați fost foarte stresat în ultima perioadă?
+M: Alcool în cantitate mai mare ați consumat înainte să începeți să vă simțiți rău?
+M: Alte boli mai aveți?
+M: Părinții, frații sau surorile dumneavoastră suferă de ceva boli?
+M: Vom face mai multe investigații ca să stabilim un diagnostic.
+M: Aveți o gastrită acută.
+M: Va trebui să vă alimentați corect, să nu mai luați medicamente antiinflamatoare sau alte medicamente nocive pentru stomac. 
+M: Trebuie să evitați stresul.
+P: Medicamente nu trebuie să iau?
+M: Trebuie să luați și medicamentele acestea.
+M: După ce terminați tratamentul vă aștept la un control.
+# ULCER GASTRIC
+P: Mă doare stomacul.
+P: Mă doare sub coaste pe mijloc.
+P: Îmi trece când mănânc sau iau ceva medicament pentru stomac.
+P: Această durere este mai mare atunci când mănânc.
+P: Durerea este ca o arsură sau ca o senzație de foame.
+P: Am grețuri și vărsături.
+P: Mă simt balonat. 
+P: Durerea de burtă apare în orele dimineții.
+P: După mâncare îmi trece durerea, dar reapare la câteva ore după aceea.
+P: Durerea mă trezește noaptea din somn.
+# OCLUZIA INTESTINULUI SUBTIRE
+P: Am crampe abdominale în dreptul buricului și vărs toată mâncarea.
+P: Am o durere abdominală foarte mare, constantă. 
+P: Inițial au fost crampe abdominale, dar acum de câteva ore mă doare foarte tare și nu mai îmi trece deloc.
+M: Vărsați repede după ce mâncați sau după mai mult timp?
+P: Vărs destul de repede.
+M: Altceva vă mai supără?
+P: Da, sunt constipat.
+# OCLUZIA INTESTINULUI GROS 
+P: Sunt constipat și foarte balonat.
+P: Am crampe abdominale.
+M: Unde sunt aceste crampe? 
+P: Sunt situate mai jos.
+M: Ați vărsat?
+P: Am vărsat.
+M: La cât timp după mâncare apar vărsăturile?
+P: Vărsăturile apar la câteva ore după mâncare.
+# APENDICITA ACUTA 
+P: Mă doare burta jos în partea dreaptă. 
+P: Am grețuri și am vărsat.
+M: Altceva vă mai supără?
+P: Am făcut febră.
+M: De cât timp au apărut aceste acuze?
+P: De câteva ore.
+# Peritonita acută
+P: Mă doare burta.
+P: Mă doare abdomenul.
+P: Am febră mare și vărs.
+# ESOFAG abdominal perforat
+P: Mă doare în partea stângă sub coaste și pieptul tot în partea stângă. 
+P: Durerea aceasta merge și în umărul stâng.
+# ULCER GASTRIC sau duodenal perforat
+P: Dintr-o dată a început să mă doară foarte tare burta, pe mijloc, sub coaste. 
+P: Durerea aceasta nu mi-a trecut deloc. 
+P: După câteva ore am început și să vărs.
+# PANCREATITA ACUTA 
+P: Mă doare foarte tare abdomenul sus, sub coaste și durerea merge în spate. 
+P: Mă doare foarte insuportabil burta, sub coaste și durerea merge în spate. 
+P: Atunci când stau aplecat în față sau stau în picioare parcă nu mă mai doare așa de tare.
+P: Durerea nu dispare orice medicament am luat.
+P: Am febră și transpir.
+P: Mă simt foarte rău și nu pot sta bine în picioare.
+P: Am grețuri și am vărsat.
+P: Mă simt balonat.
+# DIAREEA 	
+P: Am diaree.
+P: Merg foarte des la baie pentru treaba mare.
+P: Mă doare burta.
+P: Am vărsat.
+M: De cât timp?
+P: De câteva zile.
+M: Câte scaune aveți pe zi?
+P: Mai multe scaune. 
+M: Scaunele sunt și cu sânge?
+P: Da.
+P: Nu.
+M: Mucus în scaun ați avut?
+M: Scaunele sunt unsuroase, miros foarte urât?
+M: Ce ați mâncat ultima dată înainte să aveți diaree?
+M: Ați călătorit în țări străine, unde ați fost?
+M: Ați băut apă din altă parte decât de obicei?
+M: De unde ați băut apă? 
+# Gastroenterita
+P: Nu am poftă de mâncare.
+P: Am grețuri, vărsături și diaree cu sânge.
+P: Am grețuri și diaree cu mucus.
+P: Am vărsături și diaree cu apoasă.
+P: Mă simt foarte rău, mă dor toți mușchii.
+P: Mă doare capul.
+P: Sunt balonat și mă doare burta.
+P: Îmi chiorăie burta.
+P: Am febră.
+# CANCER ESOFAGIAN 
+P: Am dificultăți la înghițire.
+P: Simt cum mâncarea se blochează în gât. 
+P: Nu pot înghiți alimentele solide.
+P: Nu pot înghiți alimentele solide și lichide. 
+P: Mă doare când înghit.
+P: Mă doare în piept și durerea parcă merge până în spate.
+P: Am vărsat cu sânge.
+P: Am făcut treaba mare foarte negru.
+P: Am scăzut în greutate.
+P: Mi-a apărut o umflătură la nivelul gâtului.
+P: Respir mai greu
+# CANCER GASTRIC 
+P: Sunt balonat.
+P: Sunt balonată.
+P: Mă satur cu mâncare puțină.
+P: Mă doare burta.
+P: Am dificultăți la înghițire. 
+P: Am scăzut în greutate.
+P: Am vărsat cu sânge.
+P: Am făcut treaba mare foarte negru.
+P: Sunt obosit și fără chef de viață.
+# CANCERUL colo-rectal
+P: Mă simt slăbit și obosit.
+P: Nu am scaune regulate.
+P: Ori sunt constipat, ori am diaree.
+P: Am scaune cu sânge.
+P: Când am scaun sângerez.
+P: După ce fac treaba mare am senzația că nu am terminat. 
+P: Am senzația neapărată de a face treaba mare.
+P: Am crampe la nivelul fundului.
+P: Am junghiuri la nivelul anusului.
+# HEMOROIZII
+P: Sângerez după ce fac treaba mare.
+P: Mă doare când fac treaba mare.
+P: Am o umflătură la anus.
+# FISURA ANALA 
+P: Sângerez și mă doare când am scaun.
+P: Durerea durează câteva ore după ce fac treaba mare, apoi dispare până data viitoare Când ies la baie. 
+#CIROZA 
+P: Mă simt slăbit.
+P: Nu am poftă de mâncare.
+P: Am slăbit în greutate.
+P: M-am îngălbenit.
+P: Mă mănâncă pielea.
+P: Am vărsat sânge proaspăt.
+P: Abdomenul meu s-a mărit mult.
+P: Am palmele roșii.
+P: Mi-au apărut niște pete mici pe corp.
+P: Mi-au crescut sânii.
+P: Îmi cade părul, sub braț nu mai am aproape deloc
+# HEPATITA ACUTA VIRALA 
+P: Nu am poftă de mâncare.
+P: Mă simt slăbit și fără putere.
+P: Am febră.
+P: Am grețuri și vărsături.
+P: Mă dor articulațiile.
+P: Mi-au ieșit pe piele pete care mă mănâncă.
+P: Am urina închisă la culoare.
+P: M-am îngălbenit pe piele.
+P: Am o senzație de disconfort în partea dreaptă sub coaste.
+# HEPATITA CRONICA 
+P: Am senzația de jenă abdominală parcă în partea dreaptă sub coaste.
+P: Nu am poftă de mâncare.
+P: Mă simt slăbit și fără putere.
+P: Mă simt obosit tot timpul. 
+P: Am puțină febră. 
+# METASTAZELE HEPATICE 
+P: Am scăzut în greutate.
+P: Nu am poftă de mâncare.
+P: Am febră.
+P: M-am îngălbenit pe piele.
+P: Burta mea s-a mărit în volum.
+P: Mi-a crescut burta mai mare. 
+P: Am senzația de jenă abdominală parcă în partea dreaptă sub coaste.
+# CANCERUL HEPATIC PRIMAR
+P: Mă doare burta.
+P: Am scăzut în greutate.
+P: Mă simt foarte rău și parcă nu am putere.
+M: Cu alte boli vă mai știți?
+P: Am ciroză hepatică.
+#LITIAZA BILIARA CU COLECISTITA ACUTA
+P: Mă doare foarte tare în partea dreaptă sub coaste.
+P: Mă doare în burtă în mijloc. 
+P: Durerea aceasta merge în spate în partea dreaptă și e constantă.
+P: Durerea nu mă lasă deloc în pace.
+P: Durerea este tot mai mare. 
+P: Durerea durează de câteva ore.
+P: Am grețuri și vărsături.
+P: Mă simt balonat și tot râgâi. 
+P: Mă simt balonată și tot râgâi. 
+P: Am febră.
+# POLIARTRITA 
+P: Mă doare o articulație. 
+P: La început m-a durut puțin și nu i-am dat importanță, dar durerea e tot mai mare.
+P: Mă dor mai multe articulații. 
+P: La început m-au durut puțin și nu le-am dat importanță, dar durerea e tot mai mare.
+P: Mă dor dintr-o dată foarte tare articulațiile.
+P: Mă dor articulațiile de la degetele de la ambele mâini.
+P: Mă dor articulațiile de la degetele de la ambele picioare.
+P: Mă dor articulațiile de la coate.
+P: Mă dor articulațiile de la glezne.
+P: Dimineața când mă trezesc abia îmi mișc articulațiile.
+P: Parcă sunt înțepenite articulațiile și mă dor câteva minute. 
+P: Durerea cedează după ce îmi mișc mâinile.
+P: Durerea cedează după ce îmi mișc picioarele.
+P: După-amiază mă simt obosit și fără putere.
+# BOALA ARTROZOICĂ 
+P: Mă doare o articulație.
+P: Mă dor mai multe articulații.
+P: Mă doare mai tare când le mișc și durerea se calmează dacă nu le mai mișc.
+P: Dimineața când mă trezesc abia îmi mișc articulațiile.
+P: Articulațiile parcă sunt înțepenite și mă dor câteva minute. 
+P: Durerea cedează după ce încep să mă mișc.
+P: Articulațiile mele sunt tot mai înțepenite.
+P: Nu pot mișca articulațiile cum ar trebui.
+P: Articulațiile sunt umflate.
+P: Articulația este umflată.
+# GUTA 
+P: Mă doare articulația de la degetul mare de la picior.
+P: Mă doare articulația de la călcâi. 
+P: Mă doare articulația de la gleznă. 
+P: Mă doare articulația de la genunchi. 
+P: Mă doare articulația de la pumni.
+P: Mă doare articulația de la cot. 
+P: Durerea este tot mai mare. 
+P: Durerea este insuportabilă.
+P: Articulația s-a umflat, e roșie, caldă și mă doare când pun mâna pe ea.
+P: Am febră.
+P: Mă simt rău.
+P: Simt că îmi bate inima repede și cu putere.
+P: La început durerea era la o articulație și a durat câteva zile.
+P: Acum mă dor mai multe articulații și durează de câteva săptămâni.
+P: Între episoadele de durere mă simt bine.
+P: Articulația este deformată.
+P: Articulația nu mai are o mobilitate normală.
+P: Nu mai pot mișca bine articulația.
+# ORL
+P: Nu mai aud bine.
+P: Mă doare puțin urechea.
+P: Mă deranjează urechea.
+P: Mă doare urechea.
+P: Nu mai aud bine cu urechea care mă doare.
+P: Îmi curge urechea.
+P: Mă mănâncă urechea.
+P: În urma unei lovituri peste ureche.
+P: După ce am folosit un bețișor de ureche și l-am introdus prea adânc.
+P: Când foloseam bețișorul pentru urechi m-a lovit cineva peste mână brusc.
+P: M-a durut foarte tare.
+P: Am început să nu mai aud.
+P: Mi-a curs sânge din ureche.
+P: Mă doare foarte tare urechea.
+P: Nu mai aud bine. 
+P: Am făcut febră.
+P: Îmi curge urechea, așa ca apa dar mai gălbui.
+P: Îmi curge urechea cu puroi.
+P: Nu aud bine cu urechea. 
+P: Atunci când vorbesc îmi aud vocea în cap.
+P: Aud zgomote în ureche
+P: Mă doare foarte tare urechea.
+P: Nu aud bine cu urechea.
+P: Îmi curge urechea iar secreția e cremoasă.
+P: Îmi curge urechea iar secreția e purulentă.
+P: În spatele urechii mă doare foarte tare, e umflat totul și e roșu.
+P: Simt că urechea mea e mai depărtată de cap.
+P: Îmi curge de mai mult timp urechea.
+P: Scurgerea urechii este purulentă și miroase foarte urât.
+P: Nu aud bine.
+P: Aud zgomote în ureche.
+P: Simt că amețesc.
+P: Simt că mă învârt. 
+P: Am grețuri și vomit.
+P: Nu mă pot ține pe picioare de rău. 
+P: Nu pot sta în picioare pentru că nu îmi pot ține echilibrul.
+P: Simt că mă duc într-o parte.
+P: Aceste simptome au apărut ca o criză și durează de mai mult timp.
+P: Simt urechea înfundată, parcă nu mai aud bine cu ea.
+P: Îmi sună urechea.
+P: Crizele apar dintr-o dată, nu le pot lega de ceva anume.
+P: Înainte să înceapă criza îmi sună urechea și se înfundă.
+P: Crizele apar când mă întorc în pat de pe o parte pe alta.
+P: Crizele apar când mă ridic sau mă pun în pat.
+P: Atunci când închid ochii este mai rău.
+# SURDITATE BRUSC INSTALATA 
+P: Simt dintr-o dată că nu mai aud cu urechea.
+P: Îmi sună urechea.
+P: Toate acestea au apărut de câteva zile. 
+# EPISTAXISUL
+P: Îmi curge sânge din nas.
+P: Brusc în timpul nopții m-am trezit și am văzut că îmi curge sânge din nas.
+P: Munceam ceva și dintr-o dată a început să îmi curgă sânge din nas.
+P: Nu am reușit să opresc sângerarea așa că am chemat salvarea.
+P: Îmi curge puțin sânge din nas când îmi suflu nasul, așa ca niște firicele de sânge.
+P: Mi-a curs de mai multe ori sânge din nas. 
+P: Sângerarea se oprește după câteva minute, dar se tot repetă.
+# RINOSINUZITA
+P: Mă doare capul în frunte.
+P: Mă doare în spatele ochilor.
+P: Mă doare în ceafă.
+P: Mă doare osul maxilar și parcă și dinții.
+P: Am febră.
+P: Am frisoane.
+P: Îmi curge nasul foarte tare, galben verzui.
+P: Am febră. 
+P: Îmi curge nasul apos.
+P: Îmi curge nasul albicios.
+P: Îmi curge nasul gălbui.
+P: Mă doare în gât când înghit.
+# ANIGDALITA ACUTĂ
+P: Am febră. 
+P: Am frisoane.
+P: Mă simt rău.
+P: Mă doare capul.
+P: Mă doare foarte tare gâtul când înghit.
+P: Durerea parcă merge și în urechi.
+# FLEGMON periamigdalian
+P: Am febră mare.
+P: Am febră foarte mare.
+P: Am frisoane.
+P: Mă simt rău, abia pot sta pe picioare.
+P: Mă doare capul.
+P: Mă doare foarte tare în gât când înghit.
+P: Nu pot să mănânc nimic de durere.
+P: Mă doare mai ales pe o parte a gâtului.
+P: Durerea parcă merge și în ureche.
+P: Nu îmi pot deschide gura, parcă e blocată.
+# CANCER amigdalian
+P: Mă doare foarte rău în gât când înghit.
+P: Durerea parcă merge și în ureche.
+P: Pe gât mi-a apărut o gâlmă.
+P: Am o umflătură pe gât.
+# PULPITA 
+P: Mă doare dintele la cald.
+P: Mă doare dintele la rece.
+P: Mă doare măseaua la cald.
+P: Mă doare măseaua la rece.
+P: Mă doare toată partea dreaptă de jos.
+P: Mă doare toată partea stângă de jos.
+P: Mă doare toată partea dreaptă de sus.
+P: Mă doare toată partea stângă de sus.
+M: Cât durează durerea?
+P: Durează câteva secunde.
+P: Durează câteva minute.
+M: Altceva vă mai supără?
+P: Mă doare dintele când mușc pe el, sau când îl lovesc.
+P: Mă doare măseaua când mușc pe ea, sau când o lovesc.
+P: Simt că dintele este înalt când mușc.
+P: Simt că măseaua este înaltă când mușc.
+# GINGIVITA
+P: Mă dor gingiile.
+P: Mă doare gingia.
+P: Îmi sângerează gingia.
+P: Salivez mult.
+P: Respirația îmi miroase urât.
+P: Am respirația urât mirositoare.
+P: Mă doare când mănânc și când vorbesc.
+P: Gingia mea este roșie.
+# PARANDOPATIILE
+P: Dinții mei se mișcă.
+P: Uneori simt o durere la nivelul dinților atunci când mănânc.
+# INFECTIA DENTARA
+P: Mă doare dintele la dulce.
+P: Mă doare dintele la rece.
+P: Ține câteva secunde și apoi îmi trece. 
+P: Reapare doar când mănânc dulce sau rece.
+P: Mă doare dintele la dulce, durerea îmi trece la rece.
+P: Mă doare dintele când îl ating.
+P: Gingia de lângă dinte este roșie și umflată.
+# ALVEOLITA 	
+P: Acum câteva zile am fost la stomatolog și mi-a scos o măsea.
+P: Acum mă doare tare locul de unde a fost scoasă măseaua. 
+P: Mă doare și urechea pe partea cu măseaua extrasă.
+P: Durerea merge până în ureche.
+P: Mă jenează proteza când mănânc.
+P: Mă jenează proteza tot timpul și nu o mai port.
+P: Nu mai pot să port proteza, mă doare gingia.
+P: Mi-a căzut o plombă de la un dinte.
+P: Mi-a căzut o plombă de la o măsea.
+P: Mi-a căzut proteza fixă.
+P: Mi-a căzut coronița de pe dinte.
+P: Am mulți dinți lipsă și aș dori să îmi fac o proteză.
+P: Aș vrea să îmi schimb coronița la dinte și măsea.
+P: Aș vrea să îmi schimb coronițele la dinți.
+P: Măseaua mea s-a rupt.
+P: Dintele meu s-a rupt.
+# AFECȚIUNI NEFROLOGICE ȘI UROLOGICE
+P: Am febră.
+P: Am scăzut în greutate.
+P: Mă simt slăbit și fără forță.
+P: Merg foarte des la baie să fac treaba mică. 
+P. Parcă tot timpul am senzația că trebuie sa merg la baie.
+P: Urinez foarte des și în cantitate mică.
+P: Urinez o cantitate mare de urină.
+P: Urinez o cantitate mică de urină.
+P: Noaptea merg de multe ori la baie ca să urinez. 
+P: Mă doare atunci când urinez.
+P: Jetul la urină este slab, întrerupt, nu mai urinez cu forță.
+P: Pierd fără să vreau urină. 
+P: Scap urină pe mine. 
+P: Mă scapă foarte tare la baie, dar până să ajung la toaletă scap pe mine câțiva stropi.
+P: Atunci când urinez iese și aer.
+P: Urina mea are culori diferite.
+P: Urina are culoare maro.
+P: Urina este tulbure.
+P: Urina are aspect lăptos.
+P: Urina este roșie, cărămizie.
+P: Am sânge în urină.
+P: Atunci când ejaculez, sperma mea este cu sânge.
+P: Mă doare spatele jos în partea dreaptă.
+P: Mă doare spatele jos în partea stângă.
+P: Durerea merge jos în abdomen pe aceeași parte.
+P: Durerea merge până în organele genitale.
+P: Durerea este foarte mare, apoi cedează puțin dar nu complet, iar apoi începe iar să mă doară foarte tare.
+P: Mă doare abdomenul pe mijloc jos.
+P: Durerea merge în organele genitale atunci când urinez.
+P: Durerea este foarte mare, insuportabilă.
+P: Durerea este constantă, nu foarte mare. 
+P: Am senzația că aș fi plin în zona fundului.
+P: Mă dor testiculele. 
+P: Am crescut în greutate și parcă m-am umflat.
+P: M-am umflat la față.
+P: Picioare și mâinile mele s-au umflat.
+P: Mă simt obosit.
+P: Nu am poftă de mâncare.
+P: Respir mai greu.
+P: Am grețuri și vărsături.
+P: Mă mănâncă pielea.
+P: Am mâncărimi pe tot corpul.
+P: Mă doare capul.
+P: Simt că amețesc.
+P: Pielea mea e uscată și se descuamează.
+P: Sunt palid.
+P: Nu mai văd bine.
+P: Am leziuni în gură, care mă dor.
+P: Respirația mea miroase urât.
+# PATOLOGIE GINECOLOGICĂ
+P: Am bufeuri, îmi este dintr-o dată foarte cald, care durează câteva secunde sau câteva minute.
+P: Am transpirații.
+P: Pielea de la cap și gât se înroșește și e caldă.
+P: Sunt obosită.
+P: Sunt nervoasă și iritată.
+P: Am insomnii.
+P: Nu mă pot concentra.
+P: Sunt deprimată.
+P: Uit des.
+P: Mă doare capul.
+P: Sunt anxioasă.
+P: Am amețeli.
+P: Îmi amorțesc mâinile și picioarele.
+P: Am palpitații.
+P: Uneori simt că îmi bate inima foarte tare.
+P: Am luat în greutate.
+P: M-am îngrășat.
+P: Am diaree.
+P: Sunt constipată.
+P: Am grețuri. 
+P: Mă dor mușchii și articulațiile.
+P: Am mâinile și picioarele reci.
+P: Am mâinile și picioarele calde.
+P: Trebuie să merg foarte des la baie să urinez. 
+P: Simt nevoia foarte mare de a urina.
+P: Mă doare foarte tare atunci când am raporturi sexuale. 
+P: Simt că sunt foarte uscată jos.
+# INFLAMATII SEXUALE
+P: Am scurgeri vaginale în cantitate mare.
+P: Scurgerile vaginale sunt urât mirositoare.
+P: Am mâncărimi vaginale.
+P: Mă simt foarte iritată jos. 
+P: Scurgerea vaginală este multă.
+P: Scurgerea vaginală este ca brânza.
+P: Am febră, mă simt rău.
+P: Am bubițe în zona intimă care mă dor foarte tare.
+P: Am furnicături în zona intimă.
+P: Mă doare burta în partea de jos.
+P: Sângerez între menstruații.
+P: Am secreții vaginale multe.
+# ENDOMETRIOZĂ
+P: Mă doare abdomenul. 
+P: Mă doare burta în partea de jos.
+P: Am cicluri la intervale de timp neregulat.
+P: Nu reușesc să rămân însărcinată.
+P: Când sunt la ciclu mă doare foarte tare burta.
+P: Mă doare când fac sex.
+P: Mă doare când am relații sexuale.
+P: Mă simt balonată.
+P: Mă doare când fac treaba mare.
+P: Sângerez după ce fac treaba mare.
+P: Mă doare burta jos când urinez.
+# FIBROM UTERIN 
+P: Sângerez foarte mult cantitativ la menstruație.
+P: Menstruația mă tine mai mult de o săptămână.
+P: Mă doare abdomenul.
+P: Am senzație foarte puternică că trebuie să urinez.
+P: Sunt constipată.
+P: Nu reușesc să rămân însărcinată.
+P: Am pierdut sarcini.
+# CANCER 
+P: Deși sunt la menopauză sângerez.
+P: Sângerez foarte mult cantitativ la menstruație.
+P: Am diaree, vărsături.
+P: Sunt balonată.
+P: Nu am poftă de mâncare, mă satur foarte repede.
+P: Mănânc puțin pentru că mă satur repede.
+P: Mă doare burta când fac treaba mare.
+P: Mă doare spatele în partea de jos.
+P: Am slăbit în greutate.
+P: Mi-a crescut burta.
+P: Mi-a crescut ceva în zona intimă.
+P: Am mâncărimi în zona  genitală.
+P: Sângerez în zona intimă, unde simt că mi-a crescut ceva.
+P: Sângerez după contactul sexual.
+P: Am scurgeri vaginale apoase.
+# AFECTIUNI ALE SANULUI
+P: Mi-a crescut ceva la sân.
+P: Am o leziune pe sân.
+P: Am o leziune pe pielea sânului.
+P: Mă doare sânul când am menstruație.
+P: Îmi curge sânul.  
+# ABCESE
+P: Mă doare.
+P: S-a înroșit.
+P: E cald.
+P: S-a umflat.
+P: Am febră.
+P: Nu am poftă de mâncare și am slăbit în greutate.
+# INTRAPERITONEALE
+P: Am avut o operație acum câteva săptămâni.
+P: Am avut o operație acum câteva luni.
+P: Mă doare burta.
+P: Am febră.
+P: Nu am poftă de mâncare și am slăbit în greutate.
+P: Tușesc sec, nu pot respira bine, mă doare spatele până în umăr.
+# RETROPERITONEALE 
+P: Am febră.
+P: Am frisoane.
+P: Mă doare burta într-o parte.
+P: Mă doare când urinez.
+P: Urinez cu sânge.
+P: Am vărsături.
+# VISCERALE 
+P: Am febră.
+P: Mă doare burta în partea stângă sus și merge mână în umărul stâng.
+P: Am grețuri și vărsături.
+P: Nu am poftă de mâncare.
+P: Am slăbit în greutate.
+P: Mă doare abdomenul în partea dreaptă sus. 
+P: Mă doare spatele în partea dreaptă.
+P: M-am îngălbenit.
+# Bacteriemia și șocul septic
+P: Am febră.
+P: Mă simt foarte rău.
+P: Nu pot respira bine, respir foarte repede.
+P: Mă doare burta.
+P: Am grețuri.
+P: Am vărsături.
+P: Am diaree.
+P: Nu mă pot concentra.
+P: Dorm mult.
+P: Îmi bate inima tare.
+P: Urinez puțin.
+P: Am mâinile și picioarele reci.
+P: Sunt vânăt la buze.
+P: Sunt vânătă la buze.
+# Infecții bacteriene
+P: Am febră mare care nu scade.
+P: Mă doare capul.
+P: Mă doare când înghit.
+P: Ochii mă supără și îmi curg.
+P: Dimineața am ochii lipiți abia îi deschid.
+P: Mă simt obosit și fără poftă de viață.
+P: Mă simt obosită și fără poftă de viață.
+P: Am vărsat.
+P: Am grețuri.
+P: Am diaree apoasă în cantitate foarte mare.
+P: Am sânge în scaun.
+P: Am mucus în scaun.
+P: Am puroi în scaun.
+P: Am mucus în scaun.
+P: Am puroi în scaun.
+P: Mă doare foarte tare burta.
+P: Mă dor mușchii.
+P: Nu mai pot să îmi deschid gura.
+P: Nu pot înghiți.
+P: Nu îmi pot mișca mâinile și picioarele.
+P: Mă doare capul în spatele ochilor.
+P: Mă doare pieptul când respir.
+P: Mă doare ceafa.
+P: Am transpirații.
+P: Nu pot dormi.
+P: Am scăzut în greutate.
+P: Am pielea roșie.
+P: Amețesc când mă ridic din pat.
+P: Am leșinat.
+P: Palmele și tălpile se descuamează.
+P: Îmi bate inima foarte repede.
+P: Ganglionii de la gât sunt măriți.
+P: Mi-a apărut pe piele o pată maronie care dacă apăs se decolorează. 
+P: Mi-a apărut pe piele o pată maronie care mă mănâncă. 
+P: Mi-a apărut pe piele o pată roz care tot crește în dimensiune.
+P: Mi-a apărut o pungă cu lichid pe piele.
+P: Mi-a apărut o bășică pe piele.
+P: Nu pot respira.
+P: M-am învinețit la față.
+P: Tușesc.
+P: Mă doare spatele când tușesc.
+P: Mă doare spatele când trag aer mai adânc în piept.
+P: Tusea este seacă.
+P: Tusea este productivă.
+P: Mi-au apărut niște linii roșii sub braț, în zona articulațiilor.
+P: Am limba foarte roșie.
+P: Mă dor articulațiile.
+P: Sunt constipat.
+P: Mă doare abdomenul.
+P: Mă doare burta.
+P: Îmi curge sânge din nas.
+P: Mă doare când urinez. 
+# DERMATOLOGIE 
+P: Mi-au apărut pete roșii pe piele, cu cruste la suprafață.
+P: Mi-au ieșit erupții pe piele, cu cruste la suprafață.
+P: Am cruste la nivelul capului.
+P: Mă mănâncă la nivelul petelor.
+P: Încheieturile s-au inflamat.
+P: Mi-au apărut pete colorate pe spate și piept.
+P: Mi-au apărut pete decolorate la nivelul pielii. 
+P: Petele sunt de culoare roșie.
+P: Petele sunt de culoare maronie.
+P: Am pielea uscată.
+P: Am leziuni ale pielii de culoare roșie.
+P: Leziunile sunt proeminente și se simt la atingere.
+P: Am bășici cu conținut lichidian.
+P: Am pe piele vezicule cu conținut lichidian.
+P: Mi s-a umflat piciorul.
+P: Piciorul mă doare, este roșu și cald.
+P: M-am înțepat.
+P: M-am tăiat.
+P: Am fost mușcat.
+P: Am fost mușcată.
+P: M-am umflat la nivelul gâtului.
+P: Mă doare gâtul, nu mai pot de durere.
+P: Mă doare gâtul foarte tare.
+P: La început m-a durut și s-a înroșit, apoi a început să se umfle.
+P: Pe zona aceasta roșie mi-au apărut și bășici.
+P: Acum pielea arată ca o coajă de portocală.
+P: Mă doare capul, tremur și mi-e frig.
+P: Îmi bate inima mai repede.
+P: Mă simt obosit, mă dor mușchii.
+P: Mă simt obosită, mă dor mușchii.
+P: Am pus comprese reci și am stat cu piciorul întins.
+P: Mi-au apărut niște pete întunecate și îngroșate.
+P: Uneori petele mă și mănâncă, dar nu mă dor și devin din ce în ce mai mari.
+P: Îmi cade părul foarte tare.
+P: Am o zonă unde părul mi-a căzut complet.
+P: Îmi puteți da un tratament?
+P: Îmi puteți recomanda o cremă pentru că m-am ars?
+P: Mi-am vărsat o cană cu apă fierbinte.
+P: M-am ars cu apă fierbinte.
+P: M-am ars cu foc.
+P: A fost o mică explozie și m-am ars.
+P: Am aruncat ceva în foc și flacăra a venit spre mine și m-a ars.
+P: Nu am fost atent și au sărit pe mine câteva scântei și apoi am luat foc.
+P: Am stat la soare și am adormit și când m-am trezit eram roșu.
+P: Aveam bășicuțe pe piele și mă usturau foarte tare.
+P: Mi-au apărut bășici.
+P: Mi-au apărut bule pline cu sânge, pe mâini, cap și gât.
+P: Mi-a apărut o umflătură roșiatică.
+P: Mi-a apărut o rană.
+P: Mi-a crescut ceva și nu mai dispare, am venit să o vedeți să-mi spuneți dacă e de rău sau nu.
+P: Am la nivelul gâtului o zonă care parcă s-a decolorat și e mai tare și nu mai e netedă.
+P: Mi-a apărut de câteva luni o rană.
+P: Mi-a apărut în această zonă o bubiță, care nu mai dispare și a început să crească.
+P: Nu mă doare.
+P: Am o rană care nu-mi mai trece, sângerează și mă doare un pic.
+P: Am limba încărcată, e albă.
+P: Am ceva pe limbă și parcă e negricios.
+P: Îmi miros picioarele.
+P: Soția se plânge că îmi miros picioarele.
+P: Înainte nu am avut așa ceva.
+P: Am luat de la farmacie multe creme, dar nu-mi trece. 
+P: Mi-a crescut un corn pe nas.
+P: Mi-a crescut un corn în această zonă.
+P: Nu mai știu ce să fac pentru că nu îmi mai trece. 
+P: Mi-a apărut un nodul.
+P: Mi-a apărut o umflătură pe sub piele ca un bob de grâu.
+P: Pielea din jur e roșie.
+P: Pielea din jur e galbenă, nu mă doare, doar când îl atingeți.
+P: Mi-a apărut o umflatură la nivelul buzei.
+P: Simt ceva mai dur când pun mâna la nivelul buzei.
+P: Mi s-a făcut o rană la nivelul buzei, care nu mai trece.
+P: S-au umflat degetele la vârf.
+P: S-a umflat un deget la vârf, dar nu mă doare.
+P: La început s-au umflat picioarele și se dezumflau după ce stăteam culcat cu picioarele ridicate.
+P: La început s-au umflat picioarele și se dezumflau după ce stăteam culcată cu picioarele ridicate.
+P: Când mergeam mai mult se umflau picioarele, apoi am început să am mâncărimi. 
+P: Picioarele sunt de culoare maro.
+P: Am plăci roșii, acoperite de cruste la nivelul capului.
+P: Am plăci roșii ca o crustă la nivelul sprâncenelor.
+P: Mi-a apărut o umflătură, e roșie și plină cu puroi și mă doare foarte tare.
+P: În urmă cu câteva zile am avut febră, m-am simțit rău și de azi a apărut pata asta roșie.
+P: Pata mă doare și este tare.
+P: Am o aluniță.
+P: Am o pată de culoare maro.
+P: Am un semn din naștere care și-a schimbat culoarea.
+P: Am o aluniță care și-a schimbat forma.
+P: Am o aluniță care a crescut.  
+P: Mi s-a umflat și mă doare foarte tare la nivelul unghiei mari, de la nivelul piciorului. 
+P: Neapărat trebuie operat? 
+P: Nu îmi puteți da un medicament?
+P: Faceți cum e mai bine.
+P: Faceți ce trebuie făcut, dumneavoastră știți mai bine.
+P: Trebuie să vin la pansat? 
+P: Pot să mă pansez acasă? 
+P: Câte zile?
+P: De câte ori pe zi trebuie să mă pansez?
+P: Mi s-au umflat buzele.
+P: Mă mănâncă buzele și mă dor.
+P: Nu pot mânca și nici nu pot vorbi.
+P: Îmi simt buzele contractate.
+P: Îmi simt buzele amorțite.
+P: Am crăpături la nivelul colțului gurii.
+P: Am buzele uscate, sunt foarte roșii, mă ustură și se descuamează.
+P: Am răni mici la nivelul buzelor.
+P: Am avut mâncărimi la nivelul palmelor și tălpilor.
+P: Am avut senzația de arsură apoi dintr-o dată mi-au apărut aceste bubițe.
+P: Am avut o perioadă mai stresantă, nu știu să fiu alergic.
+P: Mi-au apărut la nivelul picioarelor pete de culoare mai deschisă.
+P: Inițial petele erau mai mici, dar acum sunt din ce în ce mai mari.
+P: Nu mai am voie să stau la soare? 
+P: Nu prea stau la soare. 
+P: Trebuie să mă dau cu o cremă protectoare pentru soare? 
+P: Am avut umflătura asta de mult timp.
+P: Umflătura era mai mică, dar de câteva luni a început să crească.
+P: Umflătura nu mă doare.
+P: Umflătura pare moale, dar m-a îngrijorat că a început să crească.
+P: De o săptămâna umflătura parcă s-a mărit și a început să mă doară.
+P: Mă dor articulațiile.
+P: Mă simt obosit.
+P: Am amorțeli.
+P: Mă mănâncă toată pielea.
+P: Am pielea foarte uscată.
+P: Mi s-au îngălbenit ochii.
+P: Mă dor ochii și îmi scade vederea.
+P: Îmi curg lacrimile.
+P: Mi-au apărut mici bubițe roșii la nivelul picioarelor.
+P: Mi-a apărut o erupție la nivelul mâinilor care mă mănâncă, de culoare violacee, cu scuame fine.
+P: Am avut o senzație de arsură apoi la câteva zile au apărut mai multe bășicuțe cu lichid în interior.
+P: Bășicuțele de pe piept dor foarte tare.
+P: Bășicuțele de pe față mă dor.  
+# HEMATOLOGIE
+P: Mă doare capul, amețesc și sunt obosit. 
+P: Mi-e somn și văd ca prin ceață.
+P: Am amorțeli și o senzație de grâu în picioare. 
+P: Am greață și vărsături.
+P: Mă doare burta și nu pot înghiți.
+P: Nu pot respira foarte bine.
+P: Respir mai greu.
+P: Mă doare în piept.
+P: Am multiple pete roșii, mai mici și mai mari și vânătăi.    
+P: Sângerez foarte ușor când mă spăl pe dinți.
+P: Mi-a curs sânge din nas.
+P: Sângerez ușor la nivelul gingiilor.
+P: Mă dor oasele și articulațiile.
+P: Mi-au apărut pe față și piept câteva bubițe de culoare violacee, dure, sensibile.
+P: Bubițele sunt dure și sensibile la atingere.
+P: Mă mănâncă tot corpul.
+P: Am pete pe tot corpul și am febră.     
+P: Unghiile îmi sunt subțiri și se rup foarte ușor.
+P: Părul este lipsit de luciu, se rupe foarte ușor și cade ușor.
+P: Mi s-a inflamat limba și nu se mai vindecă. 
+P: Mă doare în piept și îmi bate inima rapid și neregulat.
+P: Mi-au apărut câțiva ganglioni pe părțile laterale ale gâtului.
