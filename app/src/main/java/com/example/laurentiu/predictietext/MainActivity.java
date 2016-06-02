@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity
     CorpusParser.Categories category;
     CorpusParser corpusParser;
     String inputText;
-    String lastWord;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,14 +85,13 @@ public class MainActivity extends AppCompatActivity
      */
     public void tapTV1(View v) {
         String text = textField.getText().toString();
-        lastWord = (String) firstPrediction.getText();
         int j = text.length()-1;
         if(text.endsWith(" ")) {
             textField.append(firstPrediction.getText() + " ");
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text.substring(i, j).trim();
+                    text = text.substring(i, j);
                     text = text + firstPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
@@ -111,14 +109,13 @@ public class MainActivity extends AppCompatActivity
      */
     public void tapTV2(View v) {
         String text = textField.getText().toString();
-        lastWord = (String) secondPrediction.getText();
         int j = text.length()-1;
         if(text.endsWith(" ")) {
             textField.append(secondPrediction.getText() + " ");
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text.substring(i, j).trim();
+                    text = text.substring(i, j);
                     text = text + secondPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
@@ -136,14 +133,13 @@ public class MainActivity extends AppCompatActivity
      */
     public void tapTV3(View v) {
         String text = textField.getText().toString();
-        lastWord = (String) thirdPrediction.getText();
         int j = text.length()-1;
         if(text.endsWith(" ")) {
             textField.append(thirdPrediction.getText() + " ");
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text.substring(i, j).trim();
+                    text = text.substring(i, j);
                     text = text + thirdPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
@@ -156,7 +152,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    public void textFieldMonitor(EditText textField) {
+    public void textFieldMonitor(final EditText textField) {
         textField.addTextChangedListener(new TextWatcher() {
 
             @Override
@@ -187,6 +183,14 @@ public class MainActivity extends AppCompatActivity
                         thirdPrediction.setText(" ");
                     }
                 } else {
+                        String lastWord = textField.getText().toString();
+                        for(int i=lastWord.length()-2; i>=0; i--) {
+                            if(lastWord.charAt(i) == ' ') {
+                                lastWord = lastWord.substring(i, lastWord.length() - 1);
+                                break;
+                            }
+                        }
+                        lastWord = lastWord.replace(" ", "");
                         ArrayList bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord);
                         if(bigramprediction.size() >= 3) {
                             firstPrediction.setText((String) bigramprediction.get(0));
