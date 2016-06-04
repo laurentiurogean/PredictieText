@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     EditText textField;
-    TextView firstPrediction, secondPrediction, thirdPrediction;
+    TextView firstPrediction, secondPrediction, thirdPrediction, categoryTitle;
     ArrayList unigrams, bigrams;
     TextHandler textHandler;
     CorpusParser.Categories category;
@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity
         firstPrediction = (TextView) findViewById(R.id.textView);
         secondPrediction = (TextView) findViewById(R.id.textView2);
         thirdPrediction = (TextView) findViewById(R.id.textView3);
+        categoryTitle = (TextView) findViewById(R.id.textView4);
+
+        categoryTitle.setText("Medic");
 
         textFieldMonitor(textField);
 
@@ -167,7 +170,11 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onTextChanged(CharSequence s, int start,
                                       int before, int count) {
-                if(!s.toString().contains(" ")) {
+                if(s.toString().isEmpty()) {
+                    firstPrediction.setText("");
+                    secondPrediction.setText("");
+                    thirdPrediction.setText("");
+                } else if(!s.toString().contains(" ")) {
                     ArrayList<HashMap> predictions = textHandler.fetchUnigrams(unigrams, s.toString());
                     if (predictions.size() >= 3) {
                         firstPrediction.setText((String) ((HashMap) predictions.get(0)).get("gram"));
@@ -249,18 +256,20 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_hotel) {
-            getSupportActionBar().setTitle("Hotel");
+            categoryTitle.setText("Hotel");
             category = CorpusParser.Categories.Hotel;
             setCategory(CorpusParser.Categories.Hotel);
-
+            item.setChecked(true);
         } else if (id == R.id.nav_spital) {
-            getSupportActionBar().setTitle("Spital");
+            categoryTitle.setText("Medic");
             setCategory(CorpusParser.Categories.Spital);
             category = CorpusParser.Categories.Spital;
+            item.setChecked(true);
         } else if (id == R.id.nav_cumparaturi) {
-            getSupportActionBar().setTitle("Cumpărături");
+            categoryTitle.setText("Cumpărături");
             category = CorpusParser.Categories.Cumparaturi;
             setCategory(CorpusParser.Categories.Cumparaturi);
+            item.setChecked(true);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

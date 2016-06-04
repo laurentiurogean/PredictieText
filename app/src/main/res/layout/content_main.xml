@@ -18,10 +18,20 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView4"
+            android:paddingBottom="12dp"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/hint"
             android:id="@+id/editText"
+            android:layout_below="@id/textView4"
+            android:paddingTop="40dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentStart="true" />
