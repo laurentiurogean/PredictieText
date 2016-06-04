@@ -26,6 +26,7 @@ public class CorpusParser {
     public String readFromAssets(Context context, Categories category) throws IOException {
         BufferedReader reader = null;
 
+        // This switch holds changes the input for each category
         switch (category) {
             case Hotel:
                 reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.ch)));

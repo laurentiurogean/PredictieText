@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        navigationView.getMenu().getItem(0).setChecked(true);
 
         textField = (EditText) findViewById(R.id.editText);
         firstPrediction = (TextView) findViewById(R.id.textView);
@@ -160,6 +161,11 @@ public class MainActivity extends AppCompatActivity
 
             @Override
             public void afterTextChanged(Editable s) {
+                if(s.toString().isEmpty()) {
+                    firstPrediction.setText("");
+                    secondPrediction.setText("");
+                    thirdPrediction.setText("");
+                }
             }
 
             @Override
@@ -170,11 +176,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onTextChanged(CharSequence s, int start,
                                       int before, int count) {
-                if(s.toString().isEmpty()) {
-                    firstPrediction.setText("");
-                    secondPrediction.setText("");
-                    thirdPrediction.setText("");
-                } else if(!s.toString().contains(" ")) {
+                 if(!s.toString().contains(" ")) {
                     ArrayList<HashMap> predictions = textHandler.fetchUnigrams(unigrams, s.toString());
                     if (predictions.size() >= 3) {
                         firstPrediction.setText((String) ((HashMap) predictions.get(0)).get("gram"));
@@ -190,28 +192,28 @@ public class MainActivity extends AppCompatActivity
                         thirdPrediction.setText(" ");
                     }
                 } else {
-                        String lastWord = textField.getText().toString();
-                        for(int i=lastWord.length()-2; i>=0; i--) {
-                            if(lastWord.charAt(i) == ' ') {
-                                lastWord = lastWord.substring(i, lastWord.length() - 1);
-                                break;
-                            }
-                        }
-                        lastWord = lastWord.replace(" ", "");
-                        ArrayList bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord);
-                        if(bigramprediction.size() >= 3) {
-                            firstPrediction.setText((String) bigramprediction.get(0));
-                            secondPrediction.setText((String)bigramprediction.get(1));
-                            thirdPrediction.setText((String)bigramprediction.get(2));
-                        } else if(bigramprediction.size() == 2) {
-                            firstPrediction.setText((String) bigramprediction.get(0));
-                            secondPrediction.setText((String)bigramprediction.get(1));
-                            thirdPrediction.setText(" ");
-                        } else if(bigramprediction.size() == 1) {
-                            firstPrediction.setText((String) bigramprediction.get(0));
-                            secondPrediction.setText(" ");
-                            thirdPrediction.setText(" ");
-                        }
+                     String lastWord = textField.getText().toString();
+                     for(int i=lastWord.length()-2; i>=0; i--) {
+                         if(lastWord.charAt(i) == ' ') {
+                             lastWord = lastWord.substring(i, lastWord.length() - 1);
+                             break;
+                         }
+                     }
+                     lastWord = lastWord.replace(" ", "");
+                     ArrayList bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord);
+                     if(bigramprediction.size() >= 3) {
+                         firstPrediction.setText((String) bigramprediction.get(0));
+                         secondPrediction.setText((String)bigramprediction.get(1));
+                         thirdPrediction.setText((String)bigramprediction.get(2));
+                     } else if(bigramprediction.size() == 2) {
+                         firstPrediction.setText((String) bigramprediction.get(0));
+                         secondPrediction.setText((String)bigramprediction.get(1));
+                         thirdPrediction.setText(" ");
+                     } else if(bigramprediction.size() == 1) {
+                         firstPrediction.setText((String) bigramprediction.get(0));
+                         secondPrediction.setText(" ");
+                         thirdPrediction.setText(" ");
+                     }
                 }
             }
         });

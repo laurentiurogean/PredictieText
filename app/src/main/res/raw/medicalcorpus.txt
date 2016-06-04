@@ -74,7 +74,7 @@ P: Mă apasă în piept și durerea merge în spate sau în abdomen.
 M: Când apare durerea?
 P: Durerea apare după ce urc două etaje.
 P: Durerea apare după ce urc treptele.
-P: Durerea apare după ce merg 50 de metri.
+P: Durerea apare după ce merg de metri.
 P: Durerea apare când stau în frig.
 P: Durerea apare și când mă odihnesc și nu fac nimic. 
 P: Durerea apare destul de des.
@@ -82,7 +82,7 @@ P: Durerea este puternică.
 P: Durerea este deosebit de mare.
 M: Cât timp durează durerea?
 P: Câteva minute și cedează dacă mă odihnesc.
-P: Durează peste 10 minute și ține până la jumătate de oră.
+P: Durează peste minute și ține până la jumătate de oră.
 P: Durează peste o oră. 
 M: Ce faceți ca să treacă durerea?
 P: Durerea cedează dacă mă odihnesc.
@@ -277,7 +277,7 @@ M: Tusea poate persista mai multe săptămâni.
 P: Tușesc productiv și expectorez o flegmă gălbuie deja de o lună.
 P: Tușesc productiv și expectorez o flegmă gălbuie deja de două luni.
 M: Fumați?
-P: Da, fumez de 30 de ani, câte un pachet pe zi.
+P: Da, fumez de de ani, câte un pachet pe zi.
 P: Tușesc productiv și expectorez o flegmă gălbuie deja de o lună. 
 P: Nu fumez.
 P: Am fumat, dar nu mai fumez.
@@ -287,7 +287,7 @@ M: Fumatul sau expunerea la fumul de țigară timp îndelungat irită tuburile b
 M: Trebuie să facem câteva teste. 
 M: Spirometrie, radiografie toracică.
 P: Am făcut recent o radiografie toracică.
-P: Nu am făcut în ultimele 6 luni o radiografie toracică.
+P: Nu am făcut în ultimele luni o radiografie toracică.
 M: Unde lucrați? 
 M: Sunteți expus la praf sau alte tipuri de substanțe iritante?
 P: Nu lucrez.
@@ -693,7 +693,7 @@ P: Cât trebuie să stau internată?
 P: Ce fel de anestezie se va face?
 M: Operația se va face în anestezie generală.
 M: Se face o tăietură la baza gâtului, iar după operație o să stați în spital câteva zile.  
-M: După operație o să aveți două tuburi de dren, care le vom scoate cam după 2 zile.
+M: După operație o să aveți două tuburi de dren, care le vom scoate cam după zile.
 P: Ce riscuri are operația?
 P: După operație mai trebuie să iau ceva tratament?
 M: După operație va trebui să luați zilnic hormoni tiroidieni pentru tot restul vieții. 
