@@ -13,7 +13,7 @@ public class TextHandler {
 
     }
 
-    public ArrayList fetchUnigrams(ArrayList<HashMap> ngrams, String word) {
+    public ArrayList fetchGrams(ArrayList<HashMap> ngrams, String word, String secondWord) {
 
         // The ArrayList that has words starting with the word typed
         ArrayList<HashMap> intermediaryArrayList = new ArrayList<>();
@@ -22,8 +22,21 @@ public class TextHandler {
         ArrayList<HashMap> resultsArrayList = new ArrayList<>();
 
         for(HashMap hm:ngrams)
-            if(((String)hm.get("gram")).startsWith(word))
-                intermediaryArrayList.add(hm);
+            if(((String)hm.get("gram")).startsWith(word)) {
+                if (secondWord != null) {
+                    String intermediaryWord = "";
+                    for(int i=0; i<((String) hm.get("gram")).length()-1; i++)
+                        if(((String) hm.get("gram")).charAt(i) == ' ') {
+                            intermediaryWord = ((String) hm.get("gram")).substring(i+1, ((String) hm.get("gram")).length());
+                            intermediaryWord.replace(" ", "");
+                            break;
+                        }
+                    // TO-DO cauta in unigrams daca nu gaseste
+                    if(intermediaryWord.startsWith(secondWord.toString()))
+                        intermediaryArrayList.add(hm);
+                } else intermediaryArrayList.add(hm);
+            }
+
         Collections.sort(intermediaryArrayList, new MyMapComparator());
         if(intermediaryArrayList.size() >= 3) {
             resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 1));
@@ -36,9 +49,9 @@ public class TextHandler {
         return resultsArrayList;
     }
 
-    public ArrayList fetchBigramWords(ArrayList<HashMap> ngrams, String word) {
+    public ArrayList fetchBigramWords(ArrayList<HashMap> ngrams, String word, String secondWord) {
         ArrayList<String> bigramWords = new ArrayList();
-        ArrayList<HashMap> bigrams = fetchUnigrams(ngrams, word);
+        ArrayList<HashMap> bigrams = fetchGrams(ngrams, word, secondWord);
 
         for(HashMap hm:bigrams) {
             String words = (String) hm.get("gram");

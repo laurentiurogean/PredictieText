@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text = text.substring(i, j);
+                    text = text.substring(0, i);
                     text = text + firstPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text = text.substring(i, j);
+                    text = text.substring(0, i);
                     text = text + secondPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text = text.substring(i, j);
+                    text = text.substring(0, i);
                     text = text + thirdPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity
             public void onTextChanged(CharSequence s, int start,
                                       int before, int count) {
                  if(!s.toString().contains(" ")) {
-                    ArrayList<HashMap> predictions = textHandler.fetchUnigrams(unigrams, s.toString());
+                    ArrayList<HashMap> predictions = textHandler.fetchGrams(unigrams, s.toString(), null);
                     if (predictions.size() >= 3) {
                         firstPrediction.setText((String) ((HashMap) predictions.get(0)).get("gram"));
                         secondPrediction.setText((String) ((HashMap) predictions.get(1)).get("gram"));
@@ -190,17 +190,43 @@ public class MainActivity extends AppCompatActivity
                         firstPrediction.setText((String) ((HashMap) predictions.get(0)).get("gram"));
                         secondPrediction.setText(" ");
                         thirdPrediction.setText(" ");
+                    } else if (predictions.size() == 0) {
+                        clearTextVies();
                     }
                 } else {
+                     String[] tokens = textField.getText().toString().split(" ");
                      String lastWord = textField.getText().toString();
-                     for(int i=lastWord.length()-2; i>=0; i--) {
-                         if(lastWord.charAt(i) == ' ') {
-                             lastWord = lastWord.substring(i, lastWord.length() - 1);
-                             break;
-                         }
+                     String secondWord = null;
+                     if(tokens.length == 1) {
+                         lastWord = tokens[0];
+                     } else if(tokens.length>1) {
+                         secondWord = tokens[tokens.length-1];
+                         lastWord = tokens[tokens.length-2];
                      }
-                     lastWord = lastWord.replace(" ", "");
-                     ArrayList bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord);
+
+//                     int textFieldLength = textField.getText().length();
+//                     for (int i = textFieldLength - 1; i >= 0; i--) {
+//                         if (textField.getText().charAt(i) == ' ') {
+//                             secondWord = textField.getText().toString().substring(i, textFieldLength - 1);
+//                             if(secondWord.length() == 0)
+//                                 secondWord = null;
+//                             break;
+//                         }
+//                     }
+
+//                     for(int i=lastWord.length()-1; i>=0; i--) {
+//                         if(lastWord.charAt(i) == ' ') {
+//                             lastWord = lastWord.substring(i, lastWord.length() - 1);
+//                             break;
+//                         }
+//                     }
+//                     lastWord = lastWord.replace(" ", "");
+
+                     ArrayList bigramprediction = null;
+                     if(secondWord != null)
+                        bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord, secondWord);
+                     else bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord, null);
+
                      if(bigramprediction.size() >= 3) {
                          firstPrediction.setText((String) bigramprediction.get(0));
                          secondPrediction.setText((String)bigramprediction.get(1));
@@ -213,10 +239,18 @@ public class MainActivity extends AppCompatActivity
                          firstPrediction.setText((String) bigramprediction.get(0));
                          secondPrediction.setText(" ");
                          thirdPrediction.setText(" ");
+                     } else if (bigramprediction.size() == 0) {
+                         clearTextVies();
                      }
                 }
             }
         });
+    }
+
+    private void clearTextVies() {
+        firstPrediction.setText(" ");
+        secondPrediction.setText(" ");
+        thirdPrediction.setText(" ");
     }
 
     @Override
