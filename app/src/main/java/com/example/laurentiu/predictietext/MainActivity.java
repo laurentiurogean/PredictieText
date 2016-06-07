@@ -54,9 +54,10 @@ public class MainActivity extends AppCompatActivity
         thirdPrediction = (TextView) findViewById(R.id.textView3);
         categoryTitle = (TextView) findViewById(R.id.textView4);
 
-        categoryTitle.setText("Medic");
-
         textFieldMonitor(textField);
+
+        // Initially we start with this category - TO-DO: start with the last category (sharedPreferences)
+        categoryTitle.setText("Medic");
 
         corpusParser = new CorpusParser();
 
@@ -92,17 +93,17 @@ public class MainActivity extends AppCompatActivity
         String text = textField.getText().toString();
         int j = text.length()-1;
         if(text.endsWith(" ")) {
-            textField.append(firstPrediction.getText() + " ");
+            textField.append((String) firstPrediction.getText() + " ");
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text = text.substring(0, i);
+                    text = text.substring(0, i+1);
                     text = text + firstPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
                     break;
                 } else if(i == 0){
-                    text = (String) firstPrediction.getText() + " ";
+                    text = firstPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
                 }
@@ -120,13 +121,13 @@ public class MainActivity extends AppCompatActivity
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text = text.substring(0, i);
+                    text = text.substring(0, i+1);
                     text = text + secondPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
                     break;
                 } else if(i == 0){
-                    text = (String) secondPrediction.getText() + " ";
+                    text = secondPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
                 }
@@ -140,17 +141,17 @@ public class MainActivity extends AppCompatActivity
         String text = textField.getText().toString();
         int j = text.length()-1;
         if(text.endsWith(" ")) {
-            textField.append(thirdPrediction.getText() + " ");
+            textField.append( thirdPrediction.getText() + " ");
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
-                    text = text.substring(0, i);
-                    text = text + thirdPrediction.getText() + " ";
+                    text = text.substring(0, i+1);
+                    text = text + ((String) thirdPrediction.getText()).concat(" ");
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
                     break;
                 } else if(i == 0){
-                    text = (String) thirdPrediction.getText() + " ";
+                    text = thirdPrediction.getText() + " ";
                     textField.setText(text);
                     textField.setSelection(textField.getText().length());
                 }
@@ -195,7 +196,9 @@ public class MainActivity extends AppCompatActivity
                         clearTextVies();
                     }
                 } else {
-                     String[] tokens = textField.getText().toString().split(" ");
+                     String inputText = textField.getText().toString();
+                     inputText = inputText.replace("  ", " ");
+                     String[] tokens = inputText.split(" ");
                      String lastWord = textField.getText().toString();
                      String secondWord = null;
                      if(tokens.length == 1) {
@@ -206,9 +209,12 @@ public class MainActivity extends AppCompatActivity
                      }
 
                      ArrayList bigramprediction = null;
-                     if(secondWord != null)
+                     if(!s.toString().endsWith(" "))
                         bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord, secondWord);
-                     else bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord, null);
+                     else if(tokens.length > 1)
+                         bigramprediction = textHandler.fetchBigramWords(bigrams, secondWord, null);
+                     else
+                        bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord, null);
 
                      if (bigramprediction.size() == 0) {
                          Log.d("Predictions", "Results found in unigrams: 3");

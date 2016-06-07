@@ -30,7 +30,7 @@ public class TextHandler {
                     String[] tokens = ((String)hm.get("gram")).split(" ");
                     intermediaryWord = tokens[1];
 
-                    if(intermediaryWord.startsWith(secondWord.toString()))
+                    if(intermediaryWord.startsWith(secondWord.toString()) && intermediaryWord != word)
                         intermediaryArrayList.add(hm);
                 } else intermediaryArrayList.add(hm);
             }
