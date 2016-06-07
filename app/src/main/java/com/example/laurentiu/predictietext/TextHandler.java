@@ -1,5 +1,7 @@
 package com.example.laurentiu.predictietext;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -25,13 +27,9 @@ public class TextHandler {
             if(((String)hm.get("gram")).startsWith(word)) {
                 if (secondWord != null) {
                     String intermediaryWord = "";
-                    for(int i=0; i<((String) hm.get("gram")).length()-1; i++)
-                        if(((String) hm.get("gram")).charAt(i) == ' ') {
-                            intermediaryWord = ((String) hm.get("gram")).substring(i+1, ((String) hm.get("gram")).length());
-                            intermediaryWord.replace(" ", "");
-                            break;
-                        }
-                    // TO-DO cauta in unigrams daca nu gaseste
+                    String[] tokens = ((String)hm.get("gram")).split(" ");
+                    intermediaryWord = tokens[1];
+
                     if(intermediaryWord.startsWith(secondWord.toString()))
                         intermediaryArrayList.add(hm);
                 } else intermediaryArrayList.add(hm);
@@ -45,6 +43,9 @@ public class TextHandler {
         } else {
             for(HashMap hm:intermediaryArrayList)
                 resultsArrayList.add(hm);
+        }
+        if(resultsArrayList.size() == 0) {
+            Log.d("Text Handler", "No results!");
         }
         return resultsArrayList;
     }
