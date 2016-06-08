@@ -44,16 +44,17 @@ public class CorpusParser {
         String mLine = reader.readLine();
         while (mLine != null) {
             if(!mLine.startsWith("#") && !mLine.startsWith("M:")) {
-                mLine = mLine.replace("P: ", "");
+                mLine = mLine.replace("P: ", " ");
+                mLine = mLine.replace("?", "");
+                mLine = mLine.replace(".", "");
+                mLine = mLine.replace(",", "");
+                mLine = mLine.replace("!", "");
                 sb.append(mLine); // process line
             }
             mLine = reader.readLine();
         }
         reader.close();
         String text = sb.toString();
-        text = text.replace("?", " ");
-        text = text.replace(".", " ");
-        text = text.replace(",", " ");
         return text;
     }
 

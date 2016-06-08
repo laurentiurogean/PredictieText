@@ -62,13 +62,8 @@ public class MainActivity extends AppCompatActivity
         corpusParser = new CorpusParser();
 
         category = CorpusParser.Categories.Spital;
-        try {
-            inputText = corpusParser.readFromAssets(getApplicationContext(), category);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        unigrams = corpusParser.computeUnigrams(inputText);
-        bigrams = corpusParser.computeBigrams(inputText);
+        setCategory(category);
+
         textHandler = new TextHandler();
     }
 
@@ -193,7 +188,7 @@ public class MainActivity extends AppCompatActivity
                         secondPrediction.setText(" ");
                         thirdPrediction.setText(" ");
                     } else if (predictions.size() == 0) {
-                        clearTextVies();
+                        clearTextViews();
                     }
                 } else {
                      String inputText = textField.getText().toString();
@@ -217,13 +212,24 @@ public class MainActivity extends AppCompatActivity
                         bigramprediction = textHandler.fetchBigramWords(bigrams, lastWord, null);
 
                      if (bigramprediction.size() == 0) {
-                         Log.d("Predictions", "Results found in unigrams: 3");
-                         bigramprediction = textHandler.fetchGrams(unigrams, secondWord, null);
-                         clearTextVies();
+                         Log.d("Predictions", "Results found in bigrams: 0");
+
+                         // First case we have more than 1 word in textfield
+                         bigramprediction = secondWord != null ? textHandler.fetchGrams(unigrams, secondWord, null) : textHandler.fetchGrams(unigrams, lastWord, null);
+                         clearTextViews();
+
                          if(bigramprediction.size() >= 3) {
                              firstPrediction.setText((String) ((HashMap) bigramprediction.get(0)).get("gram"));
                              secondPrediction.setText((String) ((HashMap) bigramprediction.get(1)).get("gram"));
                              thirdPrediction.setText((String) ((HashMap) bigramprediction.get(2)).get("gram"));
+                         } else if (bigramprediction.size() == 2) {
+                             firstPrediction.setText((String) ((HashMap) bigramprediction.get(0)).get("gram"));
+                             secondPrediction.setText((String) ((HashMap) bigramprediction.get(1)).get("gram"));
+                             thirdPrediction.setText("");
+                         } else if (bigramprediction.size() == 1) {
+                             firstPrediction.setText((String) ((HashMap) bigramprediction.get(0)).get("gram"));
+                             secondPrediction.setText("");
+                             thirdPrediction.setText("");
                          }
                      } else if(bigramprediction.size() >= 3) {
                          Log.d("Predictions", "Results found in bigrams: 3");
@@ -235,16 +241,30 @@ public class MainActivity extends AppCompatActivity
                          firstPrediction.setText((String) bigramprediction.get(0));
                          secondPrediction.setText((String)bigramprediction.get(1));
                          ArrayList preds = textHandler.fetchGrams(unigrams, secondWord, null);
-                         if(preds.size() > 0)
-                            thirdPrediction.setText((String) ((HashMap)preds.get(0)).get("gram"));
+                         if(preds.size() > 0) {
+                             String first = ((String) firstPrediction.getText()).replace(" ", "");
+                             String second = ((String) secondPrediction.getText()).replace(" ", "");
+                             if(((HashMap) preds.get(0)).get("gram").equals(first) || ((HashMap) preds.get(0)).get("gram").equals(second))
+                                thirdPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
+                             else thirdPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
+                         }
                          else thirdPrediction.setText("");
                      } else if(bigramprediction.size() == 1) {
                          Log.d("Predictions", "Results found in bigrams: 1");
                          firstPrediction.setText((String) bigramprediction.get(0));
                          ArrayList preds = textHandler.fetchGrams(unigrams, secondWord, null);
                          if(preds.size() > 1) {
-                             secondPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
-                             thirdPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
+                             String first = ((String) firstPrediction.getText()).replace(" ", "");
+                             if(((HashMap) preds.get(0)).get("gram").equals(first)) {
+                                 secondPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
+                                 thirdPrediction.setText((String) ((HashMap) preds.get(2)).get("gram"));
+                             } else if(((HashMap) preds.get(1)).get("gram").equals(first)) {
+                                 secondPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
+                                 thirdPrediction.setText((String) ((HashMap) preds.get(2)).get("gram"));
+                             } else {
+                                 secondPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
+                                 thirdPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
+                             }
                          } else {
                              thirdPrediction.setText("");
                              secondPrediction.setText("");
@@ -255,7 +275,7 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
-    private void clearTextVies() {
+    private void clearTextViews() {
         firstPrediction.setText(" ");
         secondPrediction.setText(" ");
         thirdPrediction.setText(" ");

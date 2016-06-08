@@ -23,17 +23,20 @@ public class TextHandler {
         // The ArrayList containing up to 3 most used words
         ArrayList<HashMap> resultsArrayList = new ArrayList<>();
 
-        for(HashMap hm:ngrams)
-            if(((String)hm.get("gram")).startsWith(word)) {
+        for(HashMap hm:ngrams) {
+            // iar probleme fmm "trebuie sa ..." la s
+            if (((String) hm.get("gram")).startsWith(word)) {
                 if (secondWord != null) {
                     String intermediaryWord = "";
-                    String[] tokens = ((String)hm.get("gram")).split(" ");
-                    intermediaryWord = tokens[1];
-
-                    if(intermediaryWord.startsWith(secondWord.toString()) && intermediaryWord != word)
-                        intermediaryArrayList.add(hm);
+                    String[] tokens = ((String) hm.get("gram")).split(" ");
+                    if (tokens.length > 1) {
+                        intermediaryWord = tokens[1];
+                        if (intermediaryWord.startsWith(secondWord.toString()) && intermediaryWord != word)
+                            intermediaryArrayList.add(hm);
+                    } else Log.d("Bigrams", "Invalid bigram!");
                 } else intermediaryArrayList.add(hm);
             }
+        }
 
         Collections.sort(intermediaryArrayList, new MyMapComparator());
         if(intermediaryArrayList.size() >= 3) {
@@ -41,8 +44,11 @@ public class TextHandler {
             resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 2));
             resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 3));
         } else {
-            for(HashMap hm:intermediaryArrayList)
+            for(HashMap hm:intermediaryArrayList) {
+                String newHm = ((String) hm.get("gram")).replace(" ", "");
+                hm.put("gram", newHm);
                 resultsArrayList.add(hm);
+            }
         }
         if(resultsArrayList.size() == 0) {
             Log.d("Text Handler", "No results!");
