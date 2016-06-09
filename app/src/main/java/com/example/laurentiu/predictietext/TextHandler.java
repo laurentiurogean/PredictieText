@@ -1,7 +1,12 @@
 package com.example.laurentiu.predictietext;
 
+import android.content.Context;
 import android.util.Log;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -11,9 +16,6 @@ import java.util.HashMap;
  * Created by Laurentiu on 08.05.2016.
  */
 public class TextHandler {
-    public void saveTxtFile (ArrayList array, String fileName) {
-
-    }
 
     public ArrayList fetchGrams(ArrayList<HashMap> ngrams, String word, String secondWord) {
 
@@ -45,8 +47,6 @@ public class TextHandler {
             resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 3));
         } else {
             for(HashMap hm:intermediaryArrayList) {
-//                String newHm = ((String) hm.get("gram")).replace(" ", "");
-//                hm.put("gram", newHm);
                 resultsArrayList.add(hm);
             }
         }
@@ -69,6 +69,27 @@ public class TextHandler {
                 }
         }
         return bigramWords;
+    }
+
+    public void saveTxtFile(ArrayList<HashMap> ngrams, String fileName, Context context) {
+        File path = context.getFilesDir();
+        File file = new File(path, fileName + ".txt");
+        FileOutputStream stream = null;
+        try {
+            stream = new FileOutputStream(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        for(HashMap hm:ngrams) {
+            String line = hm.get("gram") + "/" + hm.get("frequency") + "//";
+            try {
+                stream.write(line.getBytes());
+            }  catch (IOException e) {
+                Log.d("FileOutput", "Line couldn't be written!");
+                e.printStackTrace();
+            }
+        }
     }
 
     public class MyMapComparator implements Comparator<HashMap>

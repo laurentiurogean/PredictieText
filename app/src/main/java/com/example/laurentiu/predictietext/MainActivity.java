@@ -15,9 +15,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.view.inputmethod.InputMethodManager;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -52,13 +52,12 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.getMenu().getItem(0).setChecked(true);
 
+        textHandler = new TextHandler();
         textField = (EditText) findViewById(R.id.editText);
         firstPrediction = (TextView) findViewById(R.id.textView);
         secondPrediction = (TextView) findViewById(R.id.textView2);
         thirdPrediction = (TextView) findViewById(R.id.textView3);
         categoryTitle = (TextView) findViewById(R.id.textView4);
-
-
 
         // Initially we start with this category - TO-DO: start with the last category (sharedPreferences)
         categoryTitle.setText("Medic");
@@ -68,7 +67,6 @@ public class MainActivity extends AppCompatActivity
         category = CorpusParser.Categories.Spital;
         setCategory(category);
 
-        textHandler = new TextHandler();
         x = getResources().getDrawable(R.drawable.x);
         x.setBounds(0, 0, x.getIntrinsicWidth() / 3, x.getIntrinsicHeight() / 3);
         textField.setCompoundDrawables(null, null, x, null);
