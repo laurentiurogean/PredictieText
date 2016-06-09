@@ -45,8 +45,8 @@ public class TextHandler {
             resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 3));
         } else {
             for(HashMap hm:intermediaryArrayList) {
-                String newHm = ((String) hm.get("gram")).replace(" ", "");
-                hm.put("gram", newHm);
+//                String newHm = ((String) hm.get("gram")).replace(" ", "");
+//                hm.put("gram", newHm);
                 resultsArrayList.add(hm);
             }
         }
