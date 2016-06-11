@@ -1,7 +1,13 @@
 package com.example.laurentiu.predictietext;
 
+import android.app.AlertDialog;
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.provider.Telephony;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -9,6 +15,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
+import android.text.InputType;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Menu;
@@ -18,6 +25,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -71,8 +79,7 @@ public class MainActivity extends AppCompatActivity
         x.setBounds(0, 0, x.getIntrinsicWidth() / 3, x.getIntrinsicHeight() / 3);
         textField.setCompoundDrawables(null, null, x, null);
         textFieldMonitor(textField);
-
-
+        textField.setInputType(InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
     }
 
     /**
@@ -144,7 +151,7 @@ public class MainActivity extends AppCompatActivity
         String text = textField.getText().toString();
         int j = text.length()-1;
         if(text.endsWith(" ")) {
-            textField.append( thirdPrediction.getText() + " ");
+            textField.append(thirdPrediction.getText() + " ");
         } else {
             for(int i=text.length()-1; i>=0; i--)
                 if(text.charAt(i) == ' ') {
@@ -161,6 +168,102 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    /**
+     * Method to copy the current text to clipboard
+     * @param v
+     */
+    public void copyTextToClipboard(View v) {
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        if(textField.getText().toString().isEmpty()) {
+            Toast.makeText(MainActivity.this,
+                    "Nu aţi scris nimic!", Toast.LENGTH_LONG).show();
+        } else {
+            ClipData clip = ClipData.newPlainText("copyToClipboard", (CharSequence) textField.getText());
+            clipboard.setPrimaryClip(clip);
+            Toast.makeText(MainActivity.this,
+                    "Copiat! Acum poţi insera oriunde.", Toast.LENGTH_LONG).show();
+        }
+    }
+
+    /**
+     * Method to highlight the message from the text field
+     * @param v
+     */
+    public void showMessage(View v) {
+        if(textField.getText().toString().isEmpty()) {
+            Toast.makeText(MainActivity.this,
+                    "Nu aţi scris nimic!", Toast.LENGTH_LONG).show();
+        } else {
+            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+            alertDialogBuilder.setTitle("Mesaj");
+            CharSequence text = textField.getText().toString().isEmpty() ? "Nu aţi scris nimic in câmp!" : formatMessage();
+            alertDialogBuilder.setMessage(text);
+            alertDialogBuilder.show();
+        }
+    }
+
+    /**
+     * Method to export the message to SMS app
+     * @param v
+     */
+    public void sendSMS(View v) {
+        if(textField.getText().toString().isEmpty()) {
+            Toast.makeText(MainActivity.this,
+                    "Nu aţi scris nimic!", Toast.LENGTH_LONG).show();
+        } else {
+            try {
+                String defaultSmsPackageName = Telephony.Sms.getDefaultSmsPackage(this); //Need to change the build to API 19
+
+                Intent sendIntent = new Intent(Intent.ACTION_SEND);
+                sendIntent.setType("text/plain");
+                String message = formatMessage();
+                sendIntent.putExtra(Intent.EXTRA_TEXT, message);
+
+                if (defaultSmsPackageName != null)//Can be null in case that there is no default, then the user would be able to choose any app that support this intent.
+                {
+                    sendIntent.setPackage(defaultSmsPackageName);
+                }
+
+                this.startActivity(sendIntent);
+            } catch (Exception e) {
+                Toast.makeText(getApplicationContext(),
+                        "SMS failed, please try again later!",
+                        Toast.LENGTH_LONG).show();
+                e.printStackTrace();
+            }
+        }
+    }
+
+    /**
+     * Method to send e-mail
+     * @param v
+     */
+    public void sendEmail(View v) {
+        if(textField.getText().toString().isEmpty()) {
+            Toast.makeText(MainActivity.this,
+                    "Nu aţi scris nimic!", Toast.LENGTH_LONG).show();
+        } else {
+            try {
+                Intent emailIntent = new Intent(Intent.ACTION_SEND);
+                emailIntent.setType("plain/text");
+                emailIntent.putExtra(Intent.EXTRA_TEXT, formatMessage());
+                startActivity(Intent.createChooser(emailIntent, "Send email..."));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    /**
+     * Method to make first letter capital
+     */
+    public String formatMessage() {
+        String message = textField.getText().toString();
+        String messageSub = message.substring(1).toLowerCase();
+        String substring = message.substring(0,1).toUpperCase();
+        String newMessage = substring + messageSub;
+        return newMessage;
+    }
 
     public void textFieldMonitor(final EditText textField) {
 

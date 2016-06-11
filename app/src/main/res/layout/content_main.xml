@@ -78,6 +78,34 @@
             android:onClick="tapTV1"
             android:clickable="true"
             android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/textView">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afişare"
+                android:onClick="showMessage"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Copiază"
+                android:onClick="copyTextToClipboard"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMS"
+                android:onClick="sendSMS"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mail"
+                android:onClick="sendEmail"/>
+        </LinearLayout>
 
     </RelativeLayout>
 </RelativeLayout>
