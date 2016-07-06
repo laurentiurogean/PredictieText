@@ -25,35 +25,38 @@ public class TextHandler {
         // The ArrayList containing up to 3 most used words
         ArrayList<HashMap> resultsArrayList = new ArrayList<>();
 
+        //for each HashMap from the N-grams List
         for(HashMap hm:ngrams) {
             // iar probleme fmm "trebuie sa ..." la s
             if (((String) hm.get("gram")).startsWith(word)) {
+                // if the secondWord is not null
                 if (secondWord != null) {
-                    String intermediaryWord = "";
-                    String[] tokens = ((String) hm.get("gram")).split(" ");
-                    if (tokens.length > 1) {
-                        intermediaryWord = tokens[1];
+                    String intermediaryWord = ""; // will hold the characters if an uncomplete word
+                    String[] tokens = ((String) hm.get("gram")).split(" "); // split the String into tokens
+                    if (tokens.length > 1) { // if we have a Bigram
+                        intermediaryWord = tokens[1]; // init with the first letters of a word that is about to be predicted
+                        // check if there is a word that starts with those letters and it's not the same as the first word
                         if (intermediaryWord.startsWith(secondWord.toString()) && intermediaryWord != word)
-                            intermediaryArrayList.add(hm);
-                    } else Log.d("Bigrams", "Invalid bigram!");
-                } else intermediaryArrayList.add(hm);
+                            intermediaryArrayList.add(hm); // if YES add it to the list
+                    } else Log.d("Bigrams", "Invalid bigram!"); // log to console
+                } else intermediaryArrayList.add(hm); // if secondWord is null it means we need the unigram so add it to the list
             }
         }
 
-        Collections.sort(intermediaryArrayList, new MyMapComparator());
-        if(intermediaryArrayList.size() >= 3) {
-            resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 1));
-            resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 2));
-            resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 3));
-        } else {
-            for(HashMap hm:intermediaryArrayList) {
-                resultsArrayList.add(hm);
+            Collections.sort(intermediaryArrayList, new MyMapComparator());
+            if(intermediaryArrayList.size() >= 3) {
+                resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 1));
+                resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 2));
+                resultsArrayList.add((HashMap) intermediaryArrayList.get(intermediaryArrayList.size() - 3));
+            } else {
+                for(HashMap hm:intermediaryArrayList) {
+                    resultsArrayList.add(hm);
+                }
             }
-        }
-        if(resultsArrayList.size() == 0) {
-            Log.d("Text Handler", "No results!");
-        }
-        return resultsArrayList;
+            if(resultsArrayList.size() == 0) {
+                Log.d("Text Handler", "No results!");
+            }
+            return resultsArrayList;
     }
 
     public ArrayList fetchBigramWords(ArrayList<HashMap> ngrams, String word, String secondWord) {
@@ -91,6 +94,23 @@ public class TextHandler {
             }
         }
     }
+
+    /**
+     *  Returns a suggestion from the unigrams lsit
+     * @param unigrams
+     * @return
+     */
+    public String fetchSuggestion(ArrayList<HashMap> unigrams, String word) {
+        for(HashMap hm:unigrams) {
+            if(((String)hm.get("gram")).startsWith(word) ||((String)hm.get("gram")).contains(word))
+                return word;
+        }
+        for(HashMap hm:unigrams)
+            if(((String)hm.get("gram")).startsWith(word.substring(0,1)) && ((String)hm.get("gram")).length() <= word.length())
+                return word;
+        return "-------";
+    }
+
 
     public class MyMapComparator implements Comparator<HashMap>
     {

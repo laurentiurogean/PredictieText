@@ -3,6 +3,7 @@ package com.example.laurentiu.predictietext;
 import android.content.Context;
 
 import java.io.BufferedReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -13,11 +14,16 @@ import java.util.StringTokenizer;
  * Created by Laurentiu on 08.04.2016.
  */
 public class CorpusParser {
-
+    /**
+     * Enumeration that holds the categories/locations
+     */
     public enum Categories {
         Hotel,
         Spital,
-        Cumparaturi
+        Cumparaturi,
+        Tribunal,
+        Sport,
+        Teatru
     };
 
     /**
@@ -29,15 +35,25 @@ public class CorpusParser {
         // This switch holds changes the input for each category
         switch (category) {
             case Hotel:
-                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.ch)));
+                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.hotel)));
                 break;
             case Spital:
-                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.medicalcorpus)));
+                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.medic)));
                 break;
             case Cumparaturi:
+                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.cumparaturi)));
+                break;
+            case Tribunal:
+                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.tribunal)));
+                break;
+            case Sport:
+                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.sport)));
+                break;
+            case Teatru:
+                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.teatru)));
                 break;
             default:
-                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.medicalcorpus)));
+                reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.medic)));
         }
 
         StringBuilder sb = new StringBuilder();
@@ -46,10 +62,11 @@ public class CorpusParser {
             if(!mLine.startsWith("#") && !mLine.startsWith("M:")) {
                 mLine = mLine.replace("P: ", " ");
                 mLine = mLine.replace("?", "");
+                mLine = mLine.replace("„", "");
                 mLine = mLine.replace(".", "");
                 mLine = mLine.replace(",", "");
                 mLine = mLine.replace("!", "");
-                sb.append(mLine); // process line
+                sb.append(mLine + " "); // process line
             }
             mLine = reader.readLine();
         }
@@ -72,7 +89,7 @@ public class CorpusParser {
         // The final ArrayList which will be returned
         ArrayList<HashMap> finalWordList = new ArrayList<HashMap>();
 
-        String allLowerCase = input.toLowerCase();
+        String allLowerCase = input.toLowerCase(); // Make all letters lower case
         StringTokenizer strTokenizer = new StringTokenizer(allLowerCase, " ");
         while(strTokenizer.hasMoreTokens()) tokens.add(strTokenizer.nextToken());
 
@@ -136,6 +153,32 @@ public class CorpusParser {
                 finalWordList.add(gramHm);
             }
         }
+
+//        int max = 0;
+//        String word = "";
+//        for(HashMap hm:finalWordList) {
+//            int frequency = (int) hm.get("frequency");
+//            String gram = (String) hm.get("gram");
+//            if(frequency > 50) {
+//                max = frequency;
+//                word = gram;
+//            }
+//        }
+//        Log.d("Max", "max is" + word);
         return finalWordList;
+    }
+
+    public void addWordToFile(String word, String fileName, Context context) {
+        try
+        {
+//            File file = new File(Environment.getRootDirectory() + );
+            FileWriter fw = new FileWriter(fileName, true); //the true will append the new data
+            fw.write("\n word");//appends the string to the file
+            fw.close();
+        }
+        catch(IOException ioe)
+        {
+            System.err.println("IOException: Cannot append to file!" + ioe);
+        }
     }
 }

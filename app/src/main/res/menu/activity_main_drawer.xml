@@ -13,7 +13,19 @@
         <item
             android:id="@+id/nav_cumparaturi"
             android:icon="@drawable/spital"
-            android:title="Cumparaturi" />
+            android:title="Cumpărături" />
+        <item
+            android:id="@+id/nav_tribunal"
+            android:icon="@drawable/spital"
+            android:title="Tribunal" />
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@drawable/spital"
+            android:title="Sport" />
+        <item
+            android:id="@+id/nav_teatru"
+            android:icon="@drawable/spital"
+            android:title="Teatru" />
     </group>
 
 </menu>

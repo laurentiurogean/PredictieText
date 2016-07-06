@@ -6,6 +6,7 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.Telephony;
 import android.support.design.widget.NavigationView;
@@ -35,13 +36,14 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     EditText textField;
-    TextView firstPrediction, secondPrediction, thirdPrediction, categoryTitle;
+    TextView firstPrediction, secondPrediction, thirdPrediction, categoryTitle, suggestionLabel;
     ArrayList unigrams, bigrams;
     TextHandler textHandler;
     CorpusParser.Categories category;
     CorpusParser corpusParser;
     String inputText;
     public Drawable x;
+    String suggestion, currentFileName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +68,7 @@ public class MainActivity extends AppCompatActivity
         secondPrediction = (TextView) findViewById(R.id.textView2);
         thirdPrediction = (TextView) findViewById(R.id.textView3);
         categoryTitle = (TextView) findViewById(R.id.textView4);
+        suggestionLabel = (TextView) findViewById(R.id.suggestionlabel);
 
         // Initially we start with this category - TO-DO: start with the last category (sharedPreferences)
         categoryTitle.setText("Medic");
@@ -80,6 +83,20 @@ public class MainActivity extends AppCompatActivity
         textField.setCompoundDrawables(null, null, x, null);
         textFieldMonitor(textField);
         textField.setInputType(InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
+        currentFileName = "medic";
+    }
+
+    public class ParseTask extends AsyncTask<String, Integer, ArrayList> {
+
+        @Override
+        protected ArrayList doInBackground(String... params) {
+            return textHandler.fetchGrams(unigrams, params[0], null);
+        }
+
+        @Override
+        protected void onPostExecute(ArrayList result) {
+            super.onPostExecute(result);
+        }
     }
 
     /**
@@ -100,23 +117,25 @@ public class MainActivity extends AppCompatActivity
      * First prediction TextView listener
      */
     public void tapTV1(View v) {
-        String text = textField.getText().toString();
-        int j = text.length()-1;
-        if(text.endsWith(" ")) {
-            textField.append((String) firstPrediction.getText() + " ");
-        } else {
-            for(int i=text.length()-1; i>=0; i--)
-                if(text.charAt(i) == ' ') {
-                    text = text.substring(0, i+1);
-                    text = text + firstPrediction.getText() + " ";
-                    textField.setText(text);
-                    textField.setSelection(textField.getText().length());
-                    break;
-                } else if(i == 0){
-                    text = firstPrediction.getText() + " ";
-                    textField.setText(text);
-                    textField.setSelection(textField.getText().length());
-                }
+        if(!firstPrediction.getText().toString().isEmpty()) {
+            String text = textField.getText().toString();
+            int j = text.length() - 1;
+            if (text.endsWith(" ")) {
+                textField.append((String) firstPrediction.getText() + " ");
+            } else {
+                for (int i = text.length() - 1; i >= 0; i--)
+                    if (text.charAt(i) == ' ') {
+                        text = text.substring(0, i + 1);
+                        text = text + firstPrediction.getText() + " ";
+                        textField.setText(text);
+                        textField.setSelection(textField.getText().length());
+                        break;
+                    } else if (i == 0) {
+                        text = firstPrediction.getText() + " ";
+                        textField.setText(text);
+                        textField.setSelection(textField.getText().length());
+                    }
+            }
         }
     }
 
@@ -124,23 +143,25 @@ public class MainActivity extends AppCompatActivity
      * Second prediction TextView listener
      */
     public void tapTV2(View v) {
-        String text = textField.getText().toString();
-        int j = text.length()-1;
-        if(text.endsWith(" ")) {
-            textField.append(secondPrediction.getText() + " ");
-        } else {
-            for(int i=text.length()-1; i>=0; i--)
-                if(text.charAt(i) == ' ') {
-                    text = text.substring(0, i+1);
-                    text = text + secondPrediction.getText() + " ";
-                    textField.setText(text);
-                    textField.setSelection(textField.getText().length());
-                    break;
-                } else if(i == 0){
-                    text = secondPrediction.getText() + " ";
-                    textField.setText(text);
-                    textField.setSelection(textField.getText().length());
-                }
+        if(!secondPrediction.getText().toString().isEmpty()) {
+            String text = textField.getText().toString();
+            int j = text.length() - 1;
+            if (text.endsWith(" ")) {
+                textField.append(secondPrediction.getText() + " ");
+            } else {
+                for (int i = text.length() - 1; i >= 0; i--)
+                    if (text.charAt(i) == ' ') {
+                        text = text.substring(0, i + 1);
+                        text = text + secondPrediction.getText() + " ";
+                        textField.setText(text);
+                        textField.setSelection(textField.getText().length());
+                        break;
+                    } else if (i == 0) {
+                        text = secondPrediction.getText() + " ";
+                        textField.setText(text);
+                        textField.setSelection(textField.getText().length());
+                    }
+            }
         }
     }
 
@@ -148,24 +169,30 @@ public class MainActivity extends AppCompatActivity
      * Third prediction TextView listener
      */
     public void tapTV3(View v) {
-        String text = textField.getText().toString();
-        int j = text.length()-1;
-        if(text.endsWith(" ")) {
-            textField.append(thirdPrediction.getText() + " ");
-        } else {
-            for(int i=text.length()-1; i>=0; i--)
-                if(text.charAt(i) == ' ') {
-                    text = text.substring(0, i+1);
-                    text = text + ((String) thirdPrediction.getText()).concat(" ");
-                    textField.setText(text);
-                    textField.setSelection(textField.getText().length());
-                    break;
-                } else if(i == 0){
-                    text = thirdPrediction.getText() + " ";
-                    textField.setText(text);
-                    textField.setSelection(textField.getText().length());
-                }
+        if(!thirdPrediction.getText().toString().isEmpty()) {
+            String text = textField.getText().toString();
+            int j = text.length() - 1;
+            if (text.endsWith(" ")) {
+                textField.append(thirdPrediction.getText() + " ");
+            } else {
+                for (int i = text.length() - 1; i >= 0; i--)
+                    if (text.charAt(i) == ' ') {
+                        text = text.substring(0, i + 1);
+                        text = text + ((String) thirdPrediction.getText()).concat(" ");
+                        textField.setText(text);
+                        textField.setSelection(textField.getText().length());
+                        break;
+                    } else if (i == 0) {
+                        text = thirdPrediction.getText() + " ";
+                        textField.setText(text);
+                        textField.setSelection(textField.getText().length());
+                    }
+            }
         }
+    }
+
+    public void tapSuggestion(View v) {
+//        corpusParser.addWordToFile(suggestion, currentFileName);
     }
 
     /**
@@ -214,12 +241,13 @@ public class MainActivity extends AppCompatActivity
             try {
                 String defaultSmsPackageName = Telephony.Sms.getDefaultSmsPackage(this); //Need to change the build to API 19
 
-                Intent sendIntent = new Intent(Intent.ACTION_SEND);
-                sendIntent.setType("text/plain");
+                Intent sendIntent = new Intent(Intent.ACTION_SEND); // here we set the ACTION
+                sendIntent.setType("text/plain"); // the content of the message is plain text
                 String message = formatMessage();
-                sendIntent.putExtra(Intent.EXTRA_TEXT, message);
+                sendIntent.putExtra(Intent.EXTRA_TEXT, message); // load data into the Intent
 
-                if (defaultSmsPackageName != null)//Can be null in case that there is no default, then the user would be able to choose any app that support this intent.
+                //Can be null in case that there is no default, then the user would be able to choose any app that support this intent.
+                if (defaultSmsPackageName != null)
                 {
                     sendIntent.setPackage(defaultSmsPackageName);
                 }
@@ -265,6 +293,13 @@ public class MainActivity extends AppCompatActivity
         return newMessage;
     }
 
+    private boolean noResults() {
+        if(!textField.getText().toString().isEmpty())
+             if(firstPrediction.getText().toString().equals("") && secondPrediction.getText().toString().equals("") && thirdPrediction.getText().toString().equals(""))
+                 return true;
+        return false;
+    }
+
     public void textFieldMonitor(final EditText textField) {
 
         textField.setOnTouchListener(new View.OnTouchListener() {
@@ -290,6 +325,11 @@ public class MainActivity extends AppCompatActivity
                     secondPrediction.setText("");
                     thirdPrediction.setText("");
                 }
+//                if(noResults() == true) {
+//                    String[] tokens = s.toString().split(" ");
+//                        suggestion = tokens[tokens.length-1].toString();
+//                    suggestionLabel.setText("Atingeţi aici dacă doriţi să adăugaţi " + tokens[tokens.length-1] + " în vocabular.");
+//                }
             }
 
             @Override
@@ -301,6 +341,7 @@ public class MainActivity extends AppCompatActivity
             public void onTextChanged(CharSequence s, int start,
                                       int before, int count) {
                 if (!s.toString().contains(" ")) {
+//                    ParseTask parseTask = new ParseTask();
                     ArrayList<HashMap> predictions = textHandler.fetchGrams(unigrams, s.toString(), null);
                     if (predictions.size() >= 3) {
                         firstPrediction.setText((String) ((HashMap) predictions.get(0)).get("gram"));
@@ -367,15 +408,17 @@ public class MainActivity extends AppCompatActivity
                         Log.d("Predictions", "Results found in bigrams: 2");
                         firstPrediction.setText((String) bigramprediction.get(0));
                         secondPrediction.setText((String) bigramprediction.get(1));
-                        ArrayList preds = textHandler.fetchGrams(unigrams, secondWord, null);
-                        if (preds.size() > 0) {
-                            String first = ((String) firstPrediction.getText()).replace(" ", "");
-                            String second = ((String) secondPrediction.getText()).replace(" ", "");
-                            if (((HashMap) preds.get(0)).get("gram").equals(first) || ((HashMap) preds.get(0)).get("gram").equals(second))
-                                thirdPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
-                            else
-                                thirdPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
-                        } else thirdPrediction.setText("");
+                        if(secondWord != null) {
+                            ArrayList preds = textHandler.fetchGrams(unigrams, secondWord, null);
+                            if (preds.size() > 0) {
+                                String first = ((String) firstPrediction.getText()).replace(" ", "");
+                                String second = ((String) secondPrediction.getText()).replace(" ", "");
+                                if (((HashMap) preds.get(0)).get("gram").equals(first) || ((HashMap) preds.get(0)).get("gram").equals(second))
+                                    thirdPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
+                                else
+                                    thirdPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
+                            } else thirdPrediction.setText("");
+                        }
                     } else if (bigramprediction.size() == 1) {
                         Log.d("Predictions", "Results found in bigrams: 1");
                         firstPrediction.setText((String) bigramprediction.get(0));
@@ -385,10 +428,12 @@ public class MainActivity extends AppCompatActivity
                                 String first = ((String) firstPrediction.getText()).replace(" ", "");
                                 if (((HashMap) preds.get(0)).get("gram").equals(first)) {
                                     secondPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
-                                    thirdPrediction.setText((String) ((HashMap) preds.get(2)).get("gram"));
+                                    if(preds.size() > 2)
+                                        thirdPrediction.setText((String) ((HashMap) preds.get(2)).get("gram"));
                                 } else if (((HashMap) preds.get(1)).get("gram").equals(first)) {
                                     secondPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
-                                    thirdPrediction.setText((String) ((HashMap) preds.get(2)).get("gram"));
+                                    if(preds.size()>2)
+                                        thirdPrediction.setText((String) ((HashMap) preds.get(2)).get("gram"));
                                 } else {
                                     secondPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
                                     thirdPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
@@ -405,9 +450,9 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void clearTextViews() {
-        firstPrediction.setText(" ");
-        secondPrediction.setText(" ");
-        thirdPrediction.setText(" ");
+        firstPrediction.setText("");
+        secondPrediction.setText("");
+        thirdPrediction.setText("");
     }
 
     @Override
@@ -453,16 +498,43 @@ public class MainActivity extends AppCompatActivity
             category = CorpusParser.Categories.Hotel;
             setCategory(CorpusParser.Categories.Hotel);
             item.setChecked(true);
+            currentFileName = "hotel";
+            textField.setText("");
         } else if (id == R.id.nav_spital) {
             categoryTitle.setText("Medic");
             setCategory(CorpusParser.Categories.Spital);
             category = CorpusParser.Categories.Spital;
             item.setChecked(true);
+            textField.setText("");
+            currentFileName = "medic";
         } else if (id == R.id.nav_cumparaturi) {
             categoryTitle.setText("Cumpărături");
             category = CorpusParser.Categories.Cumparaturi;
             setCategory(CorpusParser.Categories.Cumparaturi);
             item.setChecked(true);
+            textField.setText("");
+            currentFileName = "cumparaturi";
+        } else if (id == R.id.nav_sport) {
+            categoryTitle.setText("Sport");
+            category = CorpusParser.Categories.Sport;
+            setCategory(category);
+            item.setChecked(true);
+            textField.setText("");
+            currentFileName = "sport";
+        } else if (id == R.id.nav_tribunal) {
+            categoryTitle.setText("Tribunal");
+            category = CorpusParser.Categories.Tribunal;
+            setCategory(category);
+            item.setChecked(true);
+            textField.setText("");
+            currentFileName = "tribunal";
+        } else if (id == R.id.nav_teatru) {
+            categoryTitle.setText("Teatru");
+            category = CorpusParser.Categories.Teatru;
+            setCategory(category);
+            item.setChecked(true);
+            textField.setText("");
+            currentFileName = "teatru";
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
