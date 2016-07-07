@@ -191,9 +191,12 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    public void tapSuggestion(View v) {
-//        corpusParser.addWordToFile(suggestion, currentFileName);
+    public void saveTxtFile()
+    {
+        textHandler.saveTxtFile(unigrams, "unigramsfile", this.getApplicationContext());
+        textHandler.saveTxtFile(bigrams, "bigramsfile", this.getApplicationContext());
     }
+
 
     /**
      * Method to copy the current text to clipboard
@@ -413,8 +416,10 @@ public class MainActivity extends AppCompatActivity
                             if (preds.size() > 0) {
                                 String first = ((String) firstPrediction.getText()).replace(" ", "");
                                 String second = ((String) secondPrediction.getText()).replace(" ", "");
-                                if (((HashMap) preds.get(0)).get("gram").equals(first) || ((HashMap) preds.get(0)).get("gram").equals(second))
-                                    thirdPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
+                                if (((HashMap) preds.get(0)).get("gram").equals(first) || ((HashMap) preds.get(0)).get("gram").equals(second)) {
+                                    if (preds.size() > 1)
+                                        thirdPrediction.setText((String) ((HashMap) preds.get(1)).get("gram"));
+                                }
                                 else
                                     thirdPrediction.setText((String) ((HashMap) preds.get(0)).get("gram"));
                             } else thirdPrediction.setText("");
@@ -481,6 +486,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            saveTxtFile();
             return true;
         }
 

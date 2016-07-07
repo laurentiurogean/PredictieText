@@ -15,14 +15,15 @@ Supermagazinul (adesea folosit și anglicismul supermarket) este un spațiu come
 
 După mărime supermagazinele se pot clasifica în:
 
-de mărime mijlocie - între 500 și 1500 metri pătrați
-de mărime mare - între 1500 și 2500 metri pătrați
+de mărime mijlocie
+de mărime mare
 Supermagazinele dispun de coridoare între raioane, prin care clienții se pot deplasa cu cărucioare sau coșuri de cumpărare. Raioanele pot fi:
 
 de produse alimentare păstrate la temperatura mediului înconjurător: dulciuri, făină, paste, conserve de carne și legume,
 de fructe și legume proaspete, acest raion în general se distinge din cauza formei de prezentare, aici regăsindu-se mai rar rafturile și răcitoarele, acestea fiind înlocuite de mese și coșuri (cutii deschise)
 de produse congelate, în acest raion găsindu-se produsele de carne, înghețată, pizza și plăcinte congelată, amestecuri de legume gata preparate, gheață.
 
+Un kilogram de banane costă puțin.
 Este necesar să achitaţi numerar.
 Să cumpăr o poşetă.
 Doresc să cumpăr o legătură de ceapă.
@@ -36,7 +37,10 @@ de produse de îngrijire corporală și parfumerii
 de haine în unele supermagazine mai mari
 de produse pentru nou-născuți
 Plata se face la casă cu numerar sau carduri. Unele dintre supermagazine au card propriu în baza căruia cumpărătorul poate beneficia de oferte.
-
+Ce mărimi aveți pentru această bluză
+Ce mărime este acest tricou.
+Aș avea nevoie de o mărime mai mică.
+Aș avea nevoie de ceva lejer.
 În general, supermagazinele sunt dotate cu parcări mari pentru înlesnirea accesului la magazin.
 Bananele acestea sunt proaspete.
 Aş dori nişte portocale dacă se poate.
@@ -47,3 +51,7 @@ Preţul este acceptabil.
 Produsele sunt la preţ mic.
 Avem ofertă la legume.
 Avem lapte de trei feluri.
+Ca și client am dreptul la produse de calitate
+Clienții își doresc ce e mai bun
+Alimentele vor fi testate.
+Temperatura alimentelor este una scăzută.

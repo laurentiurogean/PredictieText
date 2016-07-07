@@ -2,7 +2,11 @@
  să din momentul în care se naște, continuând cu toate momentele în care se dezovolta, înaintează, se 
  apropie de finalizare și culminând cu ultimul moment, care nu este cel al pronunțării unei hotărâri 
  judecătorești definitve ci cel al executării pedespei, pentru că executarea face parte din procesul 
- penal. 
+ penal.
+ Fapta este penală și se pedepsește cu închisoare.
+ Doresc să depun o reclamație.
+ Am încălcat legea fără voia mea.
+ Este o lege bine formulată.
  Partea specială a procesului penal scoate în evidența toate momentele, toate treptele, pe care 
  le parcurge procesul penal în dezvoltarea să până la finalizare, de aceea la ele se vor raportă toate 
  diviziuniile procesului penal, fazele procesului penal, care sunt diviziuni care sunt formate din 
@@ -75,3 +79,6 @@ Decizia este finală
 Condamnarea s-a decis
 Sper să nu fie cu executare.
 Închisoarea este pedeapsa cea mai gravă.
+Toate teoriile vor fi discutate.
+Orice șansă de a ajunge la un consens s-a risipit.
+În cazul de față nu prea avem ce să facem.

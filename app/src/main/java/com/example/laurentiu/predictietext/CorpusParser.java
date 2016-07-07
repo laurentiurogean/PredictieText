@@ -62,6 +62,7 @@ public class CorpusParser {
             if(!mLine.startsWith("#") && !mLine.startsWith("M:")) {
                 mLine = mLine.replace("P: ", " ");
                 mLine = mLine.replace("?", "");
+                mLine = mLine.replace(":", "");
                 mLine = mLine.replace("„", "");
                 mLine = mLine.replace(".", "");
                 mLine = mLine.replace(",", "");

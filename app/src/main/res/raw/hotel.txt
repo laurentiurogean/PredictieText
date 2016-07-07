@@ -16,6 +16,7 @@
  Trebuie să veniţi devreme la micul-dejun.
  Camerele vor fi închise peste noapte.
  Odihnă plăcută.
+ Îmi doresc să fac un tur al hotelului.
  Seara vă aştept la piscină.
  Piscina este nouă şi conţine apă curată.
  Doresc o cameră cu pat dublu şi la un etaj superior.
@@ -36,5 +37,13 @@ Camera conţine baie şi dormitor.
 Holul este lung.
 Pe hol voi merge.
 Aveţi grija la lift.
+Doresc o rezervare.
 Droesc o cameră mare.
+Ce preț are o cameră pentru trei persoane
+Câte băi are camera. Câte locuri libere aveți. Hotelul permite aducerea animalelor de companie
+Este posibil să îmi aduc câinele la hotel
+Trebuia să fi rezervat din timp.
+Trebuia să am prosop la baie.
+Trebuia să fie mai multă mâncare.
+Voi trece pe lângă baie.
 
